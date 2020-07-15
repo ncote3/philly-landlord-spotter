@@ -1,4 +1,20 @@
+# philly-landlord-spotter
+A React Visualization Project using Philadelphia's Open Data Program.
+
+## Uses the Following Packages:
+* [react](https://github.com/facebook/react)
+* [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+* [axios](https://github.com/axios/axios)
+* [axios-hooks](https://github.com/simoneb/axios-hooks)
+* [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+* [react-map-gl](https://github.com/visgl/react-map-gl)
+    * [Helpful Documentation](https://www.leighhalliday.com/mapbox-clustering)
+* [supercluster](https://github.com/mapbox/supercluster)
+* [use-supercluster](https://github.com/leighhalliday/use-supercluster)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+--------------------------------------------------------------------------------------------
 
 ## Available Scripts
 
