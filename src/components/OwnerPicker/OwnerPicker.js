@@ -10,7 +10,7 @@ import axios from 'axios'
 import { makeUseAxios } from 'axios-hooks'
 
 const useAxios = makeUseAxios({
-    axios: axios.create({ baseURL: 'http://0.0.0.0:8081/api/' })
+    axios: axios.create({ baseURL: 'https://murmuring-lake-58063.herokuapp.com/api/' })
 })
 
 export default function OwnerPicker() {
