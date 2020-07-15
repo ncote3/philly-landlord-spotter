@@ -1,0 +1,9 @@
+.list-group-item.active {
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+}
+
+.list-group {
+    overflow-y: scroll;
+    height: 80vh;
+}
