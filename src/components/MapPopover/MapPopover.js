@@ -2,25 +2,26 @@ import React from "react";
 import Popover from "react-bootstrap/Popover";
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col";
+import './MapPopover.css';
 
 export default function MapPopover(props) {
     const info = props.props.props;
     return (
-        <Popover id={`marker-popover-${info.streetAddress}`} style={{width: '50vw'}}>
+        <Popover id={`marker-popover-${info.streetAddress}`} className={"housePopover"} transition={true}>
             <Popover.Title as="h3">{info.streetAddress}</Popover.Title>
             <Popover.Content>
                 <Row>
                     <Col>
-                        <p>Street Address: {info.streetAddress}</p>
-                        <p>Category: {info.category}</p>
-                        <p>Owner Two: {info.owner2}</p>
-                        <p>Recording Date: {info.recordingDate}</p>
+                        <p><b>Street Address:</b> {info.streetAddress}</p>
+                        <p><b>Category:</b> {info.category}</p>
+                        <p><b>Owner Two:</b> {(info.owner2 === '') ? 'No Owner 2' : info.owner2}</p>
+                        <p><b>Recording Date:</b> {info.recordingDate}</p>
                     </Col>
                     <Col>
-                        <p>Sale Date: {info.streetAddress}</p>
-                        <p>Sale Price: {info.salePrice}</p>
-                        <p>Year Built: {info.yearBuilt}</p>
-                        <p>Year Built Estimate: {info.yearBuiltEstimate ? info.yearBuiltEstimate : 'N'}</p>
+                        <p><b>Sale Date:</b> {info.streetAddress}</p>
+                        <p><b>Sale Price:</b> {info.salePrice}</p>
+                        <p><b>Year Built:</b> {(info.yearBuilt  === '0000') ? 'Unknown' : info.yearBuilt }</p>
+                        <p><b>Year Built Estimate:</b> {info.yearBuiltEstimate ? info.yearBuiltEstimate : 'N'}</p>
                     </Col>
                 </Row>
             </Popover.Content>

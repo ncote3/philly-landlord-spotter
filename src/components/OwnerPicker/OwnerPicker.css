@@ -12,6 +12,12 @@
     .landlordSelector {
         margin-top: 13vw;
     }
+    /*Fix for Iphones*/
+    .list-group {
+        overflow-y: scroll;
+        height: 100%;
+        margin-bottom: 7vw !important;
+    }
 }
 
 @media (max-width: 576px) {

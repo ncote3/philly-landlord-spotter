@@ -1,0 +1,21 @@
+.housePopover {
+    width: 50vw;
+}
+
+@media (max-width: 425px) {
+    .housePopover {
+        width: 65vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .housePopover {
+        width: 65vw;
+    }
+}
+
+@media (max-width: 330px) {
+    .housePopover {
+        width: 65vw;
+    }
+}
