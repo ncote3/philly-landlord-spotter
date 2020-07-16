@@ -7,3 +7,34 @@
     overflow-y: scroll;
     height: 80vh;
 }
+
+@media (max-width: 768px) {
+    .landlordSelector {
+        margin-top: 13vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .landlordSelector {
+        margin-top: 20vw;
+    }
+}
+
+@media (max-width: 435px) {
+    .landlordSelector {
+        margin-top: 30vw;
+    }
+}
+
+@media (max-width: 390px) {
+    .landlordSelector {
+        margin-top: 33vw;
+    }
+}
+
+@media (max-width: 330px) {
+    .landlordSelector {
+        margin-top: 40vw;
+    }
+}
+

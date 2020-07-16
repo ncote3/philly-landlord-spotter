@@ -4,6 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import './OwnerPicker.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Alert from "react-bootstrap/Alert";
 import MapboxPropertyMap from "../MapboxPropertyMap/MapboxPropertyMap";
 import Container from "react-bootstrap/Container";
 import axios from 'axios'
@@ -20,32 +21,29 @@ export default function OwnerPicker() {
     const landlordLink = 'landlords-and-properties/' + selectedOwner;
     // eslint-disable-next-line no-unused-vars
     const [significantLandlordsRes, refetch] = useAxios(significantLandlords);
-    console.log(significantLandlordsRes);
 
     // eslint-disable-next-line no-unused-vars
     const [landlordRes, landlordRefetch] = useAxios(landlordLink);
 
-    console.log(landlordRes.data)
-
     if (significantLandlordsRes.loading) {
         return (
             <div style={{ marginTop: '10vh' }}>
-                <Spinner animation="border" variant="primary" size={'lg'} >
-                    <span className="sr-only">Loading Owners...</span>
+                <Spinner animation="border" variant="dark" size={'lg'} >
+                    <span className="sr-only">Getting Owner Data...</span>
                 </Spinner>
-                <p>Loading Owners...</p>
+                <p>Getting Owner Data..</p>
             </div>
         )
     } else if (significantLandlordsRes.error) {
-        return <h3>Error! Owners!</h3>
+        return <Alert variant='danger'>Error getting owner data!</Alert>
     } else {
         if (landlordRes.loading) {
             return (
                 <Container style={{ marginTop: '75px' }}>
-                    <Row>
+                    <Row lg={2} sm={1} xs={1}>
                         <Col>
                             <div style={{ marginTop: '10vh' }}>
-                                <Spinner animation="border" variant="primary" size={'lg'} >
+                                <Spinner animation="border" variant="dark" size={'lg'} >
                                     <span className="sr-only">Loading Map and Points...</span>
                                 </Spinner>
                                 <p>Loading Map and Points...</p>
@@ -87,7 +85,7 @@ export default function OwnerPicker() {
         } else {
             return (
                 <Container style={{ marginTop: '75px' }}>
-                    <Row>
+                    <Row lg={2} sm={1} xs={1}>
                         <Col>
                             <MapboxPropertyMap
                                 landlord={selectedOwner}
@@ -98,7 +96,7 @@ export default function OwnerPicker() {
                         </Col>
                         <Col>
                             <div>
-                                <h3>Landlord Selector</h3>
+                                <h3 className='landlordSelector'>Landlord Selector</h3>
                                 <br/>
                                 <ListGroup defaultActiveKey={'PHILADELPHIA HOUSING AUTH'}>
                                     {
