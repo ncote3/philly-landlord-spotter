@@ -9,7 +9,7 @@ import MapboxPropertyMap from "../MapboxPropertyMap/MapboxPropertyMap";
 import Container from "react-bootstrap/Container";
 import axios from 'axios'
 import { makeUseAxios } from 'axios-hooks'
-import Badge from 'react-bootstrap/badge';
+import Badge from 'react-bootstrap/Badge';
 
 const useAxios = makeUseAxios({
     axios: axios.create({ baseURL: 'https://murmuring-lake-58063.herokuapp.com/api/' })
