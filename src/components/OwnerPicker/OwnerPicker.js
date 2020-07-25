@@ -9,13 +9,14 @@ import MapboxPropertyMap from "../MapboxPropertyMap/MapboxPropertyMap";
 import Container from "react-bootstrap/Container";
 import axios from 'axios'
 import { makeUseAxios } from 'axios-hooks'
+import Badge from 'react-bootstrap/badge';
 
 const useAxios = makeUseAxios({
     axios: axios.create({ baseURL: 'https://murmuring-lake-58063.herokuapp.com/api/' })
 })
 
 export default function OwnerPicker() {
-    const [selectedOwner, setSelectedOwner] = useState('PHILADELPHIA HOUSING AUTH')
+    const [selectedOwner, setSelectedOwner] = useState('COMMONWEALTH OF PENNSYLVA')
 
     const significantLandlords = 'significant-sorted-landlords/';
     const landlordLink = 'landlords-and-properties/' + selectedOwner;
@@ -54,7 +55,7 @@ export default function OwnerPicker() {
                                 <h3>Landlord Selector</h3>
                                 <br/>
                                 <ListGroup
-                                    defaultActiveKey={'PHILADELPHIA HOUSING AUTH'}
+                                    defaultActiveKey={'COMMONWEALTH OF PENNSYLVA'}
                                     className='scrollable'
                                 >
                                     {
@@ -93,12 +94,23 @@ export default function OwnerPicker() {
                                 loading={landlordRes.loading}
                                 error={landlordRes.error}
                             />
+                            <div className='badgeContainer'>
+                                <Badge className={'b1950'}>Before 1950</Badge>
+                                <Badge className={'b2000'}>Before 2000</Badge>
+                                <Badge className={'b2010'}>Before 2010</Badge>
+                                <Badge className={'b2015'}>Before 2015</Badge>
+                                <Badge className={'b2020'}>Before 2020</Badge>
+                                <Badge className={'bUnknown'}>Unknown</Badge>
+                            </div>
                         </Col>
-                        <Col>
+                        <Col className='noMapCol'>
+                            {/*<div className='statsPanel'>*/}
+                            {/*/!*  Need to expose stats data on the API first  *!/*/}
+                            {/*</div>*/}
                             <div>
                                 <h3 className='landlordSelector'>Landlord Selector</h3>
                                 <br/>
-                                <ListGroup defaultActiveKey={'PHILADELPHIA HOUSING AUTH'}>
+                                <ListGroup defaultActiveKey={'COMMONWEALTH OF PENNSYLVA'}>
                                     {
                                         significantLandlordsRes.data.info.map(owners => {
                                             return (

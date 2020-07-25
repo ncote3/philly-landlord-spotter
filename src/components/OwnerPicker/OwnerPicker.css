@@ -8,8 +8,48 @@
     height: 80vh;
 }
 
+.badge {
+    border: 1px solid #343a40;
+    margin: 0 2px;
+}
+
+.b1950 {
+    background-color: #1c6e8c;
+    color: white;
+}
+
+.b2000 {
+    background-color: #da4167;
+    color: white;
+}
+
+.b2010 {
+    background-color: #09BC8A;
+    color: white;
+}
+
+.b2015 {
+    background-color: #F3A712;
+    color: white;
+}
+
+.b2020 {
+    background-color: #F23602;
+    color: white;
+}
+
+.bUnknown {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.badgeContainer {
+    margin-top: 6vw;
+    margin-bottom: 2vw;
+}
+
 @media (max-width: 768px) {
-    .landlordSelector {
+    .noMapCol {
         margin-top: 13vw;
     }
     /*Fix for Iphones*/
@@ -21,25 +61,25 @@
 }
 
 @media (max-width: 576px) {
-    .landlordSelector {
+    .noMapCol {
         margin-top: 20vw;
     }
 }
 
 @media (max-width: 435px) {
-    .landlordSelector {
+    .noMapCol {
         margin-top: 30vw;
     }
 }
 
 @media (max-width: 390px) {
-    .landlordSelector {
+    .noMapCol {
         margin-top: 33vw;
     }
 }
 
 @media (max-width: 330px) {
-    .landlordSelector {
+    .noMapCol {
         margin-top: 40vw;
     }
 }

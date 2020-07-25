@@ -18,7 +18,7 @@ export default function MapPopover(props) {
                         <p><b>Recording Date:</b> {info.recordingDate}</p>
                     </Col>
                     <Col>
-                        <p><b>Sale Date:</b> {info.streetAddress}</p>
+                        <p><b>Sale Date:</b> {info.saleDate}</p>
                         <p><b>Sale Price:</b> {info.salePrice}</p>
                         <p><b>Year Built:</b> {(info.yearBuilt  === '0000') ? 'Unknown' : info.yearBuilt }</p>
                         <p><b>Year Built Estimate:</b> {info.yearBuiltEstimate ? info.yearBuiltEstimate : 'N'}</p>

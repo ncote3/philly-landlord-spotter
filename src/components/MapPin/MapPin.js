@@ -10,6 +10,26 @@ export default function MapPin(props) {
     const containerRef = useRef(null);
     const [target, setTarget] = useState(null);
 
+    const { yearBuilt } = props.props;
+    const parsedYear = parseInt(yearBuilt, 10);
+    let pinColor = 'white';
+
+    if (yearBuilt === '0000') {
+        pinColor = 'white';
+    } else if (parsedYear <= 1950) {
+        pinColor = 'green';
+    } else if (parsedYear <= 2000) {
+        pinColor = 'magenta';
+    } else if (parsedYear <= 2010) {
+        pinColor = 'orange';
+    } else if (parsedYear <= 2015) {
+        pinColor = 'yellow'
+    } else if (parsedYear <= 2020) {
+        pinColor = 'cyan';
+    } else {
+        pinColor = 'white';
+    }
+
     const handleClick = (event) => {
         setShow(!show);
         setTarget(event.target);
@@ -29,7 +49,7 @@ export default function MapPin(props) {
             >
                 <FontAwesomeIcon
                     icon={faBuilding}
-                    style={{color: 'white'}}
+                    style={{color: pinColor}}
                     onClick={handleClick}
                 />
             </Overlay>
