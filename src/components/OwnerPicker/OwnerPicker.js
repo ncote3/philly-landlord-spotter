@@ -12,14 +12,14 @@ import { makeUseAxios } from 'axios-hooks'
 import Badge from 'react-bootstrap/Badge';
 
 const useAxios = makeUseAxios({
-    axios: axios.create({ baseURL: 'https://murmuring-lake-58063.herokuapp.com/api/' })
+    axios: axios.create({ baseURL: ' http://64.227.11.89' })
 })
 
 export default function OwnerPicker() {
     const [selectedOwner, setSelectedOwner] = useState('COMMONWEALTH OF PENNSYLVA')
 
-    const significantLandlords = 'significant-sorted-landlords/';
-    const landlordLink = 'landlords-and-properties/' + selectedOwner;
+    const significantLandlords = '/api/significant-sorted-landlords/';
+    const landlordLink = '/api/landlords-and-properties/' + selectedOwner;
     // eslint-disable-next-line no-unused-vars
     const [significantLandlordsRes, refetch] = useAxios(significantLandlords);
 
