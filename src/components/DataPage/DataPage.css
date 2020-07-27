@@ -1,0 +1,18 @@
+.DataPageContainer {
+    margin-top: 6vw !important;
+    text-align: left;
+    margin-bottom: 3vw;
+}
+
+.dataDescCardHeader {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.dataDescCardBold {
+    font-weight: bold;
+}
+
+.dataDescCardItalic {
+    font-style: italic;
+}
