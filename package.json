@@ -21,7 +21,8 @@
     "react-scripts": "3.4.1",
     "supercluster": "^7.1.0",
     "swr": "^0.2.3",
-    "use-supercluster": "^0.2.8"
+    "use-supercluster": "^0.2.8",
+    "victory": "^35.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
