@@ -5,7 +5,7 @@ import Spinner from "react-bootstrap/Spinner";
 import Alert from "react-bootstrap/Alert";
 import BarChart from "../BarChart/BarChart";
 import Container from "react-bootstrap/Container";
-import './CWZipCodeBarChart.css';
+import './CWZipCodeBarChart.scss';
 
 const useAxios = makeUseAxios({
     axios: axios.create({ baseURL: 'https://www.landlord-spotter-backend.xyz/' })

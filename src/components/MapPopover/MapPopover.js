@@ -2,7 +2,7 @@ import React from "react";
 import Popover from "react-bootstrap/Popover";
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col";
-import './MapPopover.css';
+import './MapPopover.scss';
 
 export default function MapPopover(props) {
     const info = props.props.props;

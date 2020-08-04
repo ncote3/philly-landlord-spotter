@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns'
-import './DataPage.css';
+import './DataPage.scss';
 
 export default function DataPage() {
     return (

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuilding } from '@fortawesome/free-solid-svg-icons'
 import Overlay from "react-bootstrap/OverlayTrigger";
 import MapPopover from "../MapPopover/MapPopover";
-import './MapPin.css';
+import './MapPin.scss';
 
 export default function MapPin(props) {
     const [show, setShow] = useState(false);
@@ -12,7 +12,7 @@ export default function MapPin(props) {
 
     const { yearBuilt } = props.props;
     const parsedYear = parseInt(yearBuilt, 10);
-    let pinColor = 'white';
+    let pinColor;
 
     if (yearBuilt === '0000') {
         pinColor = 'white';

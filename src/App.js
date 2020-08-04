@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import OwnerPicker from "./components/OwnerPicker/OwnerPicker";
 import DataPage from "./components/DataPage/DataPage";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";

@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import IZipCodeBarChart from "../IZipCodeBarChart/IZipCodeBarChart";
-import './ZipCodePage.css';
+import './ZipCodePage.scss';
 import CWZipCodeBarChart from "../CWZipCodeBarChart/CWZipCodeBarChart";
 
 export default function ZipCodePage() {

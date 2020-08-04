@@ -9,7 +9,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import Col from "react-bootstrap/Col";
 import BarChart from "../BarChart/BarChart";
 import Container from "react-bootstrap/Container";
-import './IZipCodeBarChart.css';
+import './IZipCodeBarChart.scss';
 
 const useAxios = makeUseAxios({
     axios: axios.create({ baseURL: 'https://www.landlord-spotter-backend.xyz/' })

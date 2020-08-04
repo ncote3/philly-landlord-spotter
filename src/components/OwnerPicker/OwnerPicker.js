@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Spinner from 'react-bootstrap/Spinner';
 import ListGroup from "react-bootstrap/ListGroup";
-import './OwnerPicker.css';
+import './OwnerPicker.scss';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Alert from "react-bootstrap/Alert";
