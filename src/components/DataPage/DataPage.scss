@@ -1,3 +1,5 @@
+@use './src/styles/_colors';
+
 .DataPageContainer {
     margin-top: 6vw !important;
     text-align: left;
@@ -5,8 +7,8 @@
 }
 
 .dataDescCardHeader {
-    background-color: #343a40 !important;
-    color: white !important;
+    background-color: colors.$background_grey !important;
+    color: colors.$white !important;
 }
 
 .dataDescCardBold {

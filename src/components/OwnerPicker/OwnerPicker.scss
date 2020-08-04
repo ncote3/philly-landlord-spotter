@@ -1,6 +1,8 @@
+@use './src/styles/_colors';
+
 .list-group-item.active {
-    background-color: #343a40 !important;
-    border-color: #343a40 !important;
+    background-color: colors.$background_grey !important;
+    border-color: colors.$background_grey !important;
 }
 
 .list-group {
@@ -9,38 +11,38 @@
 }
 
 .badge {
-    border: 1px solid #343a40;
+    border: 1px solid colors.$background_grey;
     margin: 0 2px;
 }
 
 .b1950 {
-    background-color: #1c6e8c;
-    color: white;
+    background-color: colors.$pill_blue;
+    color: colors.$white;
 }
 
 .b2000 {
-    background-color: #da4167;
-    color: white;
+    background-color: colors.$pill_magenta;
+    color: colors.$white;
 }
 
 .b2010 {
-    background-color: #09BC8A;
-    color: white;
+    background-color: colors.$pill_green;
+    color: colors.$white;
 }
 
 .b2015 {
-    background-color: #F3A712;
-    color: white;
+    background-color: colors.$pill_yellow;
+    color: colors.$white;
 }
 
 .b2020 {
-    background-color: #F23602;
-    color: white;
+    background-color: colors.$pill_red;
+    color: colors.$white;
 }
 
 .bUnknown {
-    color: #000000;
-    background-color: #ffffff;
+    color: colors.$black;
+    background-color: colors.$white;
 }
 
 .badgeContainer {
