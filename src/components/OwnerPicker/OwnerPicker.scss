@@ -1,11 +1,9 @@
-@import './../philly-landlord-spotter/src/styles/colors';
-
 .ownerLoading {
     text-align: center;
-    background-color: $background_blur;
+    background-color: rgba(0, 0, 0, 0.85);
     box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
     padding: 10vw;
-    color: $white;
+    color:  #fff;
     width: 100%;
     height: 80vh;
 }
@@ -18,26 +16,26 @@
     padding-top: 5vw;
     .ownerPickerContainer {
         text-align: center;
-        background-color: $background_blur;
+        background-color: rgba(0, 0, 0, 0.85);
         box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
         padding: 1.5vw 1.5vw .5vw;
-        color: $white;
+        color: #fff;
     }
 }
 
 .list-group-item {
-    background-color: $background_grey !important;
-    color: $white !important;
+    background-color: #343a40 !important;
+    color: #fff !important;
 }
 
 .list-group-item.active {
-    background-color: $building_grey !important;
-    border-color: $building_grey !important;
+    background-color: #1A1A1A !important;
+    border-color: #1A1A1A !important;
 }
 
 .list-group-item:hover {
-    background-color: $building_grey !important;
-    border-color: $building_grey !important;
+    background-color: #1A1A1A !important;
+    border-color: #1A1A1A !important;
 }
 
 .list-group {
@@ -46,38 +44,38 @@
 }
 
 .badge {
-    border: 1px solid $building_grey;
+    border: 1px solid #1A1A1A;
     margin: 0 2px;
 }
 
 .b1950 {
-    background-color: $pill_blue;
-    color: $white;
+    background-color: #1c6e8c;
+    color: #fff;
 }
 
 .b2000 {
-    background-color: $pill_magenta;
-    color: $white;
+    background-color: #da4167;
+    color: #fff;
 }
 
 .b2010 {
-    background-color: $pill_green;
-    color: $white;
+    background-color: #09BC8A;
+    color: #fff;
 }
 
 .b2015 {
-    background-color: $pill_yellow;
-    color: $white;
+    background-color: #FFC700;
+    color: #fff;
 }
 
 .b2020 {
-    background-color: $pill_red;
-    color: $white;
+    background-color: #F23602;
+    color: #fff;
 }
 
 .bUnknown {
-    color: $black;
-    background-color: $white;
+    color: #000;
+    background-color: #fff;
 }
 
 .badgeContainer {

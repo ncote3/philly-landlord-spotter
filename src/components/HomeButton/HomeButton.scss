@@ -1,8 +1,8 @@
 @import './../philly-landlord-spotter/src/styles/colors';
 
 .homeButton {
-  background-color: $building_grey;
-  box-shadow: .5vw .5vw $building_yellow, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
+  background-color: #1A1A1A;
+  box-shadow: .5vw .5vw #FFC700, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
   width: 13vw;
   margin-right: 3vw;
   cursor: pointer;
@@ -12,7 +12,7 @@
   }
   p {
     padding: 1vw;
-    color: $building_yellow;
+    color: #FFC700;
     font-family: ff-basic-gothic-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -33,14 +33,14 @@
 
 @media (max-width: 1024px) {
   .homeButton {
-    box-shadow: .5vw .5vw $building_yellow, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
+    box-shadow: .5vw .5vw #FFC700, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
     width: 17vw;
   }
 }
 
 @media (max-width: 896px) {
   .homeButton {
-    box-shadow: 1vw 1vw $building_yellow, 0 1.5vw 1.5vw 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 1vw 1vw #FFC700, 0 1.5vw 1.5vw 0 rgba(0, 0, 0, 0.8);
     width: 18vw;
     margin-right: 7.5vw;
   }

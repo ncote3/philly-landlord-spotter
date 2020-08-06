@@ -20,13 +20,13 @@
     .heroDivOne {
       width: 45vw;
       height:20vw;
-      background-color: $building_grey;
-      box-shadow: 1vw 1vw $building_yellow, 0 2.1vw 2.1vw 0 rgba(0, 0, 0, 0.8);
+      background-color: #1A1A1A;
+      box-shadow: 1vw 1vw #FFC700, 0 2.1vw 2.1vw 0 rgba(0, 0, 0, 0.8);
       .heroText {
         font-family: gothic-open-shaded, sans-serif;
         font-weight: 400;
         font-style: normal;;
-        color: $building_yellow;
+        color: #FFC700;
         font-size: 70pt;
         line-height: 1em;
         text-align: left;
