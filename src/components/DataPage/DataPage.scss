@@ -10,26 +10,26 @@
     height: auto;
     .DataPageContainer {
         .DataPageSection {
-            background-color: $background_blur;
+            background-color: rgba(0, 0, 0, 0.85);
             box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
             padding: 1.5vw 1.5vw .5vw;
             margin-bottom: 2rem;
         }
         .DataPageJumbotron {
-            background-color: $background_blur;
+            background-color: rgba(0, 0, 0, 0.85);
             box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
-            color: $white;
+            color: #fff;
         }
         .whiteText {
-            color: $white;
+            color: #fff;
         }
     }
 }
 
 .dataDescCardHeader {
-    background-color: $building_grey !important;
-    color: $white !important;
-    border: 1px solid $white;
+    background-color: #1A1A1A !important;
+    color: #fff !important;
+    border: 1px solid #fff;
 }
 
 .dataDescCardBold {
