@@ -39,3 +39,39 @@
 .dataDescCardItalic {
     font-style: italic;
 }
+
+@media (max-width: 1024px) {
+    .DataPageWrapper {
+        padding-top: 8vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .DataPageWrapper {
+        padding-top: 10vw !important;
+    }
+}
+
+@media (max-width: 591px) {
+    .DataPageWrapper {
+        padding-top: 12vw !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .DataPageWrapper {
+        padding-top: 15vw !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .DataPageWrapper {
+        padding-top: 16vw !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .DataPageWrapper {
+        padding-top: 18vw !important;
+    }
+}

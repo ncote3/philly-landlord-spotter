@@ -85,21 +85,66 @@
     margin-bottom: 2vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
+    .ownerPickerWrapper {
+        padding-top: 6vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ownerPickerWrapper {
+        padding-top: 8vw;
+    }
+    .badgeContainer {
+        margin-top: 8vw;
+    }
+}
+
+@media (max-width: 896px) {
+    .ownerPickerWrapper {
+        padding-top: 8vw;
+        height: 180vh;
+    }
+    .badgeContainer {
+        margin-top: 10vw;
+    }
     .noMapCol {
-        margin-top: 13vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .ownerPickerWrapper {
+        height: 258vh;
+        padding-top: 9vw;
     }
     /*Fix for Iphones*/
     .list-group {
         overflow-y: scroll;
         height: 100%;
-        margin-bottom: 7vw !important;
+        margin-bottom: 6vw !important;
+    }
+}
+
+@media (max-width: 591px) {
+    .ownerPickerWrapper {
+        padding-top: 13vw;
+    }
+    .badgeContainer {
+        margin-top: 15vw;
     }
 }
 
 @media (max-width: 576px) {
     .noMapCol {
-        margin-top: 20vw;
+        margin-top: 3vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .noMapCol {
+        margin-top: 3vw;
     }
 }
 
@@ -111,13 +156,13 @@
 
 @media (max-width: 390px) {
     .noMapCol {
-        margin-top: 33vw;
+        margin-top: 20vw;
     }
 }
 
 @media (max-width: 330px) {
-    .noMapCol {
-        margin-top: 40vw;
+    .ownerPickerWrapper {
+        padding-top: 35vw;
     }
 }
 

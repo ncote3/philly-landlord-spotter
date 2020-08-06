@@ -51,8 +51,8 @@ export default function IZipCodeBarChart() {
         return (
             <Container className='individualZipCodeAnalysis'>
                 <h1 className='chartSectionHeader'>Individual Zip Code Analysis</h1>
-                <Row>
-                    <Col lg={10}>
+                <Row lg={2} sm={1} xs={1} md={1}>
+                    <Col lg={9}>
                         <Container>
                             <BarChart
                                 zipData={zipCodeRes.data}

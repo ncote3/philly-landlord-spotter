@@ -18,3 +18,62 @@
     font-style: normal;
   }
 }
+
+@media (max-width: 1366px) {
+  .homeButton {
+    margin-right: 5.5vw;
+  }
+}
+
+@media (max-width: 1195px) {
+  .homeButton {
+    margin-right: 7.5vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homeButton {
+    box-shadow: .5vw .5vw $building_yellow, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
+    width: 17vw;
+  }
+}
+
+@media (max-width: 896px) {
+  .homeButton {
+    box-shadow: 1vw 1vw $building_yellow, 0 1.5vw 1.5vw 0 rgba(0, 0, 0, 0.8);
+    width: 18vw;
+    margin-right: 7.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeButton {
+    width: 22vw;
+    margin-right: 7vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .homeButton {
+    width: 26vw;
+    margin-right: 3vw;
+    p {
+      font-size: 14pt !important;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .homeButton {
+    width: 27vw;
+    margin-right: 3.5vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .homeButton {
+    width: 27.5vw;
+    margin-right: 3.5vw;
+  }
+}
+
