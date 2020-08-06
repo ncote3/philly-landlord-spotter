@@ -10,7 +10,13 @@ export default function BarChart(props) {
             height={props.height}
             width={props.width}
         >
-            <VictoryLabel text={props.selectedZip} x={450} y={30} textAnchor="middle"/>
+            <VictoryLabel
+                text={props.selectedZip}
+                x={450}
+                y={30}
+                textAnchor="middle"
+                style={{fill: 'white'}}
+            />
             <VictoryBar
                 horizontal
                 width={5000}
@@ -18,11 +24,38 @@ export default function BarChart(props) {
                 x="owner"
                 y="property_count"
                 padding={{left: 60 }}
+                style={{
+                    data: {
+                        fill: "white"
+                    }
+                }}
             />
-            <VictoryAxis style={{ tickLabels: { fontSize: 12 } }}/>
+            <VictoryAxis
+                style={{
+                    tickLabels: {
+                        fontSize: 12,
+                        fill: 'white'
+                    },
+                    axis: {
+                        stroke: "white"
+                    },
+                }}
+            />
             <VictoryAxis
                 dependentAxis label={"No. Properties"}
-                style={{ axisLabel: { fontSize: 12 }, tickLabels: { fontSize: 12 } }}
+                style={{
+                    axisLabel: {
+                        fontSize: 12,
+                        fill: 'white',
+                    },
+                    tickLabels: {
+                        fontSize: 12,
+                        fill: 'white'
+                    },
+                    axis: {
+                        stroke: "white"
+                    },
+                }}
                 tickCount={10}
             />
         </VictoryChart>

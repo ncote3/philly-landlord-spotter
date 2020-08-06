@@ -27,8 +27,8 @@ export default function IZipCodeBarChart() {
     if (zipCodeRes.loading || zipsRes.loading) {
         return (
             <div style={{ marginTop: '10vh' }}>
-                <Container className='individualZipCodeAnalysis' style={{padding: '2vw'}}>
-                    <Spinner animation="border" variant="dark" size={'lg'} >
+                <Container className='individualZipCodeAnalysis' style={{padding: '2vw', textAlign: 'center'}}>
+                    <Spinner animation="border" variant="light" size={'lg'} >
                         <span className="sr-only">Getting Zip Code Data...</span>
                     </Spinner>
                     <p>Getting Zip Code Data..</p>
@@ -67,7 +67,7 @@ export default function IZipCodeBarChart() {
                             id="dropdown-item-button"
                             className='zipCodeBarChartDropdown'
                             title="Select Zip Code"
-                            variant={'dark'}
+                            variant={'light'}
                         >
                             {
                                 zipsRes.data.map(zipCode => {

@@ -1,0 +1,201 @@
+@import url("https://use.typekit.net/oxq8ydk.css");
+@import './../philly-landlord-spotter/src/styles/colors';
+
+.home {
+  height: 95vh;
+  width: 100%;
+  margin-top: 3vw;
+  background-attachment: fixed;
+  background-position: right top;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  .heroDivContainer {
+    padding-top: 6vw;
+    padding-left: 5vw;
+    .bottomButtonRow {
+      margin-top: 3vw;
+      display: flex;
+    }
+    .heroDivOne {
+      width: 45vw;
+      height:20vw;
+      background-color: $building_grey;
+      box-shadow: 1vw 1vw $building_yellow, 0 2.1vw 2.1vw 0 rgba(0, 0, 0, 0.8);
+      .heroText {
+        font-family: gothic-open-shaded, sans-serif;
+        font-weight: 400;
+        font-style: normal;;
+        color: $building_yellow;
+        font-size: 70pt;
+        line-height: 1em;
+        text-align: left;
+        padding: .5em;
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .home {
+    height: 96vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 50vw;
+        height: 20vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 1195px) {
+.home {
+  height: 96vh;
+  .heroDivContainer {
+    .heroDivOne {
+      width: 54vw;
+      height: 22vw;
+    }
+  }
+}
+}
+
+@media (max-width: 1024px) {
+  .home {
+    height: 98vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 65vw;
+        height: 25vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 896px) {
+  .home {
+    height: 96vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 70vw;
+        height: 28vw;
+        .heroText {
+          font-size: 65pt;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    height: 98vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 80vw;
+        height: 33vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 591px) {
+  .home {
+    height: 98vh;
+    .heroDivContainer {
+      padding-top: 15vw;
+      .heroDivOne {
+        width: 70vw;
+        height: 30vw;
+        .heroText {
+          font-size: 45pt;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    height: 99vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 85vw;
+        height: 35vw;
+        .heroText {
+          font-size: 40pt;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .home {
+    .heroDivContainer {
+      .heroDivOne {
+        width: 89vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 411px) {
+  .home {
+    height: 98.5vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 89vw;
+        .heroText {
+          font-size: 39pt;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .home {
+    height: 99vh;
+    .heroDivContainer {
+      .heroDivOne {
+        width: 90vw;
+        height: 40vw;
+        .heroText {
+          font-size: 36pt;
+          padding: .7em .5em .5em;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .home {
+    height: 99vh;
+    .heroDivContainer {
+      padding-top: 15vw;
+      .heroDivOne {
+        width: 89vw;
+        .heroText {
+          font-size: 34pt;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .home {
+    height: 99vh;
+    .heroDivContainer {
+      padding-top: 18vw;
+      .heroDivOne {
+        width: 90vw;
+        .heroText {
+          font-size: 30pt;
+        }
+      }
+    }
+  }
+}

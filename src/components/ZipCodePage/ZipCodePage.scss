@@ -1,8 +1,17 @@
+@import './../philly-landlord-spotter/src/styles/colors';
+
 .zipCodePageContainer {
-    margin-top: 6vw;
-    margin-bottom: 3vw;
+    background-attachment: scroll;
+    background-position: right top;
+    width: 100%;
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
 }
 
 .zipCodePageJumbotron {
     text-align: left;
+    background-color: $background_blur !important;
+    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    color: $white;
 }

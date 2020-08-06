@@ -100,7 +100,7 @@ export default function MapboxPropertyMap({landlord, data, loading, error}) {
             )
         }
         return (
-            <div style={{height: '75vh', width: '100%'}}>
+            <div style={{height: '70vh', width: '100%'}}>
                 <h3>{landlord}</h3>
                 <h5> Owns {totalProperties} Properties</h5>
                 <ReactMapGL

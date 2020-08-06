@@ -1,0 +1,20 @@
+@import './../philly-landlord-spotter/src/styles/colors';
+
+.homeButton {
+  background-color: $building_grey;
+  box-shadow: .5vw .5vw $building_yellow, 0 1vw 1vw 0 rgba(0, 0, 0, 0.8);
+  width: 13vw;
+  margin-right: 3vw;
+  cursor: pointer;
+  text-align: center;
+  .homeLink:hover {
+    text-decoration: underline;
+  }
+  p {
+    padding: 1vw;
+    color: $building_yellow;
+    font-family: ff-basic-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}

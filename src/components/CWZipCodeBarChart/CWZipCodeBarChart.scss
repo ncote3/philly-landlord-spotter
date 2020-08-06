@@ -1,5 +1,11 @@
+@import './../philly-landlord-spotter/src/styles/colors';
+
 .cwZipCodeAnalysis {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2vw;
+    background-color: $background_blur;
+    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    padding: 1.5vw 1.5vw .5vw;
+    color: $white;
 }
 
 .chartSectionHeader {

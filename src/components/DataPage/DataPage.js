@@ -4,16 +4,22 @@ import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns'
 import './DataPage.scss';
+import citySVG from "../../assets/381804685-vector.svg";
 
 export default function DataPage() {
     return (
-        <div className='DataPageContainer'>
-            <Container>
-                <Jumbotron>
+        <div
+            className='DataPageWrapper'
+             style={{
+                 backgroundImage: `url(${citySVG})`,
+             }}
+        >
+            <Container className='DataPageContainer'>
+                <Jumbotron className='DataPageJumbotron'>
                     <h1>Data</h1>
                     <p>An explanation on where this data came from and what it contains.</p>
                 </Jumbotron>
-                <div>
+                <div className='DataPageSection whiteText'>
                     <h1>Data Source</h1>
                     <p>
                         In 2012 the City of Philadelphia began pursuing and enacting a public open data program through
@@ -23,14 +29,16 @@ export default function DataPage() {
                          dataset. Publicly available, anyone can view or use the dataset without barrier.
                     </p>
                 </div>
-                <div>
-                    <h1>Data Description</h1>
-                    <p>
-                        This dataset is comprised on completely public information. It does not contain any personal
-                        information about who lives in a property or the vacancy status of the properties.
-                        <br/>
-                        The data used for this site contains the following for each property listed:
-                    </p>
+                <div className='DataPageSection'>
+                    <div className='whiteText'>
+                        <h1>Data Description</h1>
+                        <p>
+                            This dataset is comprised on completely public information. It does not contain any personal
+                            information about who lives in a property or the vacancy status of the properties.
+                            <br/>
+                            The data used for this site contains the following for each property listed:
+                        </p>
+                    </div>
                     <div>
                         <CardColumns>
                             <Card border={'dark'}>
@@ -248,7 +256,7 @@ export default function DataPage() {
                         <br/>
                     </div>
                 </div>
-                <div>
+                <div className='DataPageSection whiteText'>
                     <h1>Data Handling</h1>
                     <p>
                         This site was put together by an experienced tenant organizer in the Philadelphia area. As this
@@ -256,7 +264,7 @@ export default function DataPage() {
                         is sent to <a href="mailto:phl.landlord.spotter@gmail.com">phl.landlord.spotter@gmail.com</a>.
                     </p>
                 </div>
-                <div>
+                <div className='DataPageSection whiteText'>
                     <h1>Data Concerns</h1>
                     <p>
                         If you have a concern or issue with this site or the data displayed on
