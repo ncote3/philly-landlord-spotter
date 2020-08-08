@@ -1,0 +1,54 @@
+.SearchPageContainer {
+  background-attachment: scroll;
+  background-position: right top;
+  width: 100%;
+  height: auto;
+  padding-top: 6vw;
+  padding-bottom: 3vw;
+  .SearchPageSection {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin-bottom: 3vw;
+    .OwnerSearchFormListGroup {
+      color: black ;
+    }
+  }
+  .ExplainerSection {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+}
+
+@media (max-width: 1024px) {
+  .SearchPageContainer {
+    padding-top: 8vw;
+  }
+}
+
+@media (max-width: 896px) {
+  .SearchPageContainer {
+    padding-bottom: 2vw;
+  }
+}
+
+@media (max-width: 591px) {
+  .SearchPageContainer {
+    padding-top: 11vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .SearchPageContainer {
+    padding-top: 15vw;
+  }
+}
+
+@media (max-width: 411px) {
+  .SearchPageContainer {
+    padding-top: 17vw;
+  }
+}

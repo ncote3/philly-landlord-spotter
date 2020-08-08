@@ -90,7 +90,7 @@ export default function OwnerPicker() {
                                         <br/>
                                         <ListGroup
                                             defaultActiveKey={'COMMONWEALTH OF PENNSYLVA'}
-                                            className='scrollable'
+                                            className='scrollable OwnerPickerListGroup'
                                         >
                                             {
                                                 significantLandlordsRes.data.info.map(owners => {
@@ -100,6 +100,7 @@ export default function OwnerPicker() {
                                                             value={owners[0]}
                                                             eventKey={owners[0]}
                                                             onClick={() => setSelectedOwner(owners[0])}
+                                                            className='OwnerPickerListGroupItem'
                                                         >
                                                             <p style={{ margin: '0px' }}>{owners[0]}</p>
                                                             <p style={{ margin: '0px', fontSize: '10pt' }}>
@@ -161,7 +162,10 @@ export default function OwnerPicker() {
                                 <div>
                                     <h3 className='landlordSelector'>Landlord Selector</h3>
                                     <br/>
-                                    <ListGroup defaultActiveKey={'COMMONWEALTH OF PENNSYLVA'}>
+                                    <ListGroup
+                                        className='OwnerPickerListGroup'
+                                        defaultActiveKey={'COMMONWEALTH OF PENNSYLVA'}
+                                    >
                                         {
                                             significantLandlordsRes.data.info.map(owners => {
                                                 return (
@@ -170,6 +174,7 @@ export default function OwnerPicker() {
                                                         value={owners[0]}
                                                         eventKey={owners[0]}
                                                         onClick={() => setSelectedOwner(owners[0])}
+                                                        className='OwnerPickerListGroupItem'
                                                     >
                                                         <p style={{ margin: '0px' }}>{owners[0]}</p>
                                                         <p style={{ margin: '0px', fontSize: '10pt' }}>

@@ -1,0 +1,16 @@
+.SearchFormContainer {
+  padding: 2vw;
+  .SearchFormFormRow {
+    width: 100% !important;
+    .SearchFormForm {
+      width: 100% !important;
+    }
+  }
+  .resultsSection {
+    margin-top: 1vw;
+    .OwnerSearchFormListGroup {
+      background-color: #343a40 !important;
+      color: #fff !important;
+    }
+  }
+}

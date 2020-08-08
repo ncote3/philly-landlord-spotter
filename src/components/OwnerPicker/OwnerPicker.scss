@@ -23,24 +23,23 @@
     }
 }
 
-.list-group-item {
-    background-color: #343a40 !important;
-    color: #fff !important;
-}
-
-.list-group-item.active {
-    background-color: #1A1A1A !important;
-    border-color: #1A1A1A !important;
-}
-
-.list-group-item:hover {
-    background-color: #1A1A1A !important;
-    border-color: #1A1A1A !important;
-}
-
-.list-group {
+.OwnerPickerListGroup {
     overflow-y: scroll;
     height: 75vh;
+    .OwnerPickerListGroupItem {
+        background-color: #343a40 !important;
+        color: #fff !important;
+    }
+
+    .list-group-item.active {
+        background-color: #1A1A1A !important;
+        border-color: #1A1A1A !important;
+    }
+
+    .OwnerPickerListGroupItem:hover {
+        background-color: #1A1A1A !important;
+        border-color: #1A1A1A !important;
+    }
 }
 
 .badge {

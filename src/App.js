@@ -10,6 +10,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 import ZipCodePage from "./components/ZipCodePage/ZipCodePage";
 import Home from "./components/Home/Home";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
+import SearchPage from "./components/SearchPage/SearchPage";
 
 function App() {
     return (
@@ -39,6 +40,9 @@ function App() {
                             <LinkContainer to={'/zipCodeAnalysis'} className='navText'>
                                 <Nav.Link>Zip Code Analysis</Nav.Link>
                             </LinkContainer>
+                            <LinkContainer to={'/ownerSearch'} className='navText'>
+                                <Nav.Link>Owner Search</Nav.Link>
+                            </LinkContainer>
                             <LinkContainer to={'/data'} className='navText'>
                                 <Nav.Link>Data</Nav.Link>
                             </LinkContainer>
@@ -57,6 +61,9 @@ function App() {
                     </Route>
                     <Route path="/zipCodeAnalysis">
                         <ZipCodePage />
+                    </Route>
+                    <Route path="/ownerSearch">
+                        <SearchPage />
                     </Route>
                 </Switch>
             </Router>
