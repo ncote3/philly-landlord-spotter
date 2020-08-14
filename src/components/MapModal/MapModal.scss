@@ -1,0 +1,28 @@
+.MapboxPropertyMapWrapper {
+  height: 50vh !important;
+  margin-bottom: 7vw; // not a solution I like
+  h3 {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+}
+
+.MapModal {
+  box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+  .close {
+    color: #F3A712 !important;
+  }
+  .modal-body, .modal-header {
+    background-color: #1A1A1A;
+    color:  #fff;
+    border-bottom-color: #F3A712;
+  }
+  .MapModalLoading {
+    text-align: center;
+    padding: 10vw;
+    width: 100%;
+    height: 50vh;
+  }
+}

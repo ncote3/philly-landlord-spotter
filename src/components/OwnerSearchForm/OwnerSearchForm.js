@@ -13,6 +13,7 @@ import Row from "react-bootstrap/Row";
 import Badge from "react-bootstrap/Badge";
 import Col from "react-bootstrap/Col";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import MapModal from "../MapModal/MapModal";
 
 const useAxios = makeUseAxios({
     axios: axios.create({baseURL: 'https://www.landlord-spotter-backend.xyz/'})
@@ -26,6 +27,7 @@ export default function OwnerSearchForm() {
     const [showResults, setShowResults] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const [ownerToDisplay, setOwnerToDisplay] = useState('');
+    const [displayWarning, setDisplayWarning] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -45,6 +47,7 @@ export default function OwnerSearchForm() {
         e.preventDefault();
         setShowModal(true);
         setOwnerToDisplay(e.target.value);
+        setDisplayWarning(true);
     };
 
     const handleZipButton = (e) => {
@@ -115,54 +118,64 @@ export default function OwnerSearchForm() {
                             </Row>
                         </Form>
                         <div className='resultsSection'>
+                            {
+                                displayWarning
+                                ? <Alert variant='warning'>
+                                    There is a known bug where you cannot view the same map twice. To remedy this, try
+                                    refreshing the page.
+                                </Alert>
+                                : <div/>
+                            }
                             <h3>Results</h3>
                             {
                                 (stringMatches.length > 0)
-                                    ? <ListGroup>
-                                        {
-                                            stringMatches.map(owner => {
-                                                return (
-                                                    <ListGroup.Item className='OwnerSearchFormListGroup'>
-                                                        <Row>
-                                                            <Col lg={4} md={4}>
-                                                                <p>{owner.item}</p>
-                                                            </Col>
-                                                            <Col lg={2} md={2}>
-                                                                <Badge variant="secondary">
-                                                                    Score: {100 - (owner.score * 100)}
-                                                                </Badge>
-                                                            </Col>
-                                                            <Col lg={2} md={2}>
-                                                                <Button
-                                                                    onClick={handleMapButton}
-                                                                    value={owner.item}
-                                                                    variant='secondary'
-                                                                >
-                                                                    View Map
-                                                                </Button>
-                                                            </Col>
-                                                            <Col lg={2} md={2}>
-                                                                <Button
-                                                                    onClick={handleZipButton}
-                                                                    value={owner.item}
-                                                                    disabled
-                                                                    variant='secondary'
-                                                                >
-                                                                    Zip Analysis
-                                                                </Button>
-                                                            </Col>
-                                                            <Col lg={2} md={2}>
-                                                                <CopyToClipboard text={owner.item}>
-                                                                    <Button variant='secondary'>Copy Owner</Button>
-                                                                </CopyToClipboard>
-                                                            </Col>
-                                                        </Row>
-                                                    </ListGroup.Item>
-                                                )
-                                            })
-                                        }
-                                    </ListGroup>
-                                    <MapModal show={showModal} onHide={() => setModalShow(false)} owner={ownerToDisplay}/>
+                                    ? <div>
+                                        <ListGroup>
+                                            {
+                                                stringMatches.map(owner => {
+                                                    return (
+                                                        <ListGroup.Item className='OwnerSearchFormListGroup'>
+                                                            <Row>
+                                                                <Col lg={4} md={4}>
+                                                                    <p>{owner.item}</p>
+                                                                </Col>
+                                                                <Col lg={2} md={2}>
+                                                                    <Badge variant="secondary">
+                                                                        Score: {(100 - (owner.score * 100)).toFixed(2)}
+                                                                    </Badge>
+                                                                </Col>
+                                                                <Col lg={2} md={2}>
+                                                                    <Button
+                                                                        onClick={handleMapButton}
+                                                                        value={owner.item}
+                                                                        variant='secondary'
+                                                                    >
+                                                                        View Map
+                                                                    </Button>
+                                                                </Col>
+                                                                <Col lg={2} md={2}>
+                                                                    <Button
+                                                                        onClick={handleZipButton}
+                                                                        value={owner.item}
+                                                                        disabled
+                                                                        variant='secondary'
+                                                                    >
+                                                                        Zip Analysis
+                                                                    </Button>
+                                                                </Col>
+                                                                <Col lg={2} md={2}>
+                                                                    <CopyToClipboard text={owner.item}>
+                                                                        <Button variant='secondary'>Copy Owner</Button>
+                                                                    </CopyToClipboard>
+                                                                </Col>
+                                                            </Row>
+                                                        </ListGroup.Item>
+                                                    )
+                                                })
+                                            }
+                                        </ListGroup>
+                                        <MapModal show={showModal} onHide={() => setShowModal(false)} owner={ownerToDisplay}/>
+                                    </div>
                                     : <h5>There were no results.</h5>
                             }
                         </div>
