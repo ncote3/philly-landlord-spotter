@@ -16,7 +16,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const useAxios = makeUseAxios({
     axios: axios.create({baseURL: 'https://www.landlord-spotter-backend.xyz/'})
-})
+});
 
 export default function OwnerSearchForm() {
     // eslint-disable-next-line no-unused-vars
@@ -24,6 +24,8 @@ export default function OwnerSearchForm() {
     const [inputValue, setInputValue] = useState('');
     const [stringMatches, setStringMatches] = useState([]);
     const [showResults, setShowResults] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+    const [ownerToDisplay, setOwnerToDisplay] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -41,6 +43,8 @@ export default function OwnerSearchForm() {
 
     const handleMapButton = (e) => {
         e.preventDefault();
+        setShowModal(true);
+        setOwnerToDisplay(e.target.value);
     };
 
     const handleZipButton = (e) => {
@@ -82,7 +86,7 @@ export default function OwnerSearchForm() {
                                     />
                                 </Col>
                                 <Col lg={2}>
-                                    <Button type="submit" className='SearchFormButton'>Search</Button>
+                                    <Button type="submit" variant='dark' className='SearchFormButton'>Search</Button>
                                 </Col>
                             </Row>
                         </Form>
@@ -125,14 +129,13 @@ export default function OwnerSearchForm() {
                                                             </Col>
                                                             <Col lg={2} md={2}>
                                                                 <Badge variant="secondary">
-                                                                    Score: {owner.score.toFixed(4)}
+                                                                    Score: {100 - (owner.score * 100)}
                                                                 </Badge>
                                                             </Col>
                                                             <Col lg={2} md={2}>
                                                                 <Button
                                                                     onClick={handleMapButton}
                                                                     value={owner.item}
-                                                                    disabled
                                                                     variant='secondary'
                                                                 >
                                                                     View Map
@@ -159,6 +162,7 @@ export default function OwnerSearchForm() {
                                             })
                                         }
                                     </ListGroup>
+                                    <MapModal show={showModal} onHide={() => setModalShow(false)} owner={ownerToDisplay}/>
                                     : <h5>There were no results.</h5>
                             }
                         </div>
