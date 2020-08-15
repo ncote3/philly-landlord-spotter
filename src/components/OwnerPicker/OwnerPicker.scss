@@ -86,6 +86,9 @@
     .ownerPickerWrapper {
         padding-top: 6vw;
     }
+    .noMapCol {
+        padding-bottom: 1vw;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -106,7 +109,6 @@
         margin-top: 10vw;
     }
     .noMapCol {
-        padding-bottom: 1vw;
         padding-top: 1vw;
     }
 }
@@ -140,26 +142,50 @@
 }
 
 @media (max-width: 450px) {
-    .noMapCol {
-        margin-top: 3vw;
+    .ownerPickerWrapper {
+        padding-top: 20vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
-}
-
-@media (max-width: 435px) {
-    .noMapCol {
+    .badgeContainer {
         margin-top: 30vw;
+    }
+    .noMapCol {
+        margin-top: 5vw;
+    }
+    .OwnerPickerListGroupItem {
+        font-size: 12pt;
+    }
+    .landlordTitle {
+        padding-top: 3vw;
     }
 }
 
 @media (max-width: 390px) {
+    .badgeContainer {
+        margin-top: 36vw;
+    }
     .noMapCol {
-        margin-top: 20vw;
+        margin-top: 10vw;
+    }
+    .OwnerPickerListGroupItem {
+        font-size: 10pt;
     }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 375px) {
+    .badgeContainer {
+        margin-top: 36vw;
+    }
+    .noMapCol {
+        margin-top: 10vw;
+    }
+    .OwnerPickerListGroupItem {
+        font-size: 10pt;
+    }
     .ownerPickerWrapper {
-        padding-top: 35vw;
+        height: auto;
+        padding-bottom: 5vw;
     }
 }
 

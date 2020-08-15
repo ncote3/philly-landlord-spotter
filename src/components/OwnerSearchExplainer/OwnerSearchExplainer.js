@@ -42,9 +42,8 @@ export default function OwnerSearchExplainer() {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="#viewMap">
                                     <p>
-                                        The <i>View Map</i> button is currently disabled for users. This button is intended
-                                        to redirect the user to a <i>Property Map</i> that is respective to the owner
-                                        selected.
+                                        This button will display a modal of a <i>Property Map</i> that is
+                                        respective to the owner selected.
                                     </p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="#copy">

@@ -135,40 +135,42 @@ export default function OwnerSearchForm() {
                                                 stringMatches.map(owner => {
                                                     return (
                                                         <ListGroup.Item className='OwnerSearchFormListGroup'>
-                                                            <Row>
-                                                                <Col lg={4} md={4}>
-                                                                    <p>{owner.item}</p>
-                                                                </Col>
-                                                                <Col lg={2} md={2}>
-                                                                    <Badge variant="secondary">
-                                                                        Score: {(100 - (owner.score * 100)).toFixed(2)}
-                                                                    </Badge>
-                                                                </Col>
-                                                                <Col lg={2} md={2}>
-                                                                    <Button
-                                                                        onClick={handleMapButton}
-                                                                        value={owner.item}
-                                                                        variant='secondary'
-                                                                    >
-                                                                        View Map
-                                                                    </Button>
-                                                                </Col>
-                                                                <Col lg={2} md={2}>
-                                                                    <Button
-                                                                        onClick={handleZipButton}
-                                                                        value={owner.item}
-                                                                        disabled
-                                                                        variant='secondary'
-                                                                    >
-                                                                        Zip Analysis
-                                                                    </Button>
-                                                                </Col>
-                                                                <Col lg={2} md={2}>
-                                                                    <CopyToClipboard text={owner.item}>
-                                                                        <Button variant='secondary'>Copy Owner</Button>
-                                                                    </CopyToClipboard>
-                                                                </Col>
-                                                            </Row>
+                                                            <Container fluid>
+                                                                <Row>
+                                                                    <Col lg={4} md={4} xs={12}>
+                                                                        <p>{owner.item}</p>
+                                                                    </Col>
+                                                                    <Col lg={2} md={2} xs={12}>
+                                                                        <Badge variant="secondary">
+                                                                            Score: {(100 - (owner.score * 100)).toFixed(2)}
+                                                                        </Badge>
+                                                                    </Col>
+                                                                    <Col lg={2} md={2} xs={12}>
+                                                                        <Button
+                                                                            onClick={handleMapButton}
+                                                                            value={owner.item}
+                                                                            variant='secondary'
+                                                                        >
+                                                                            View Map
+                                                                        </Button>
+                                                                    </Col>
+                                                                    <Col lg={2} md={2} xs={12}>
+                                                                        <Button
+                                                                            onClick={handleZipButton}
+                                                                            value={owner.item}
+                                                                            disabled
+                                                                            variant='secondary'
+                                                                        >
+                                                                            Zip Analysis
+                                                                        </Button>
+                                                                    </Col>
+                                                                    <Col lg={2} md={2} xs={12}>
+                                                                        <CopyToClipboard text={owner.item}>
+                                                                            <Button variant='secondary'>Copy Owner</Button>
+                                                                        </CopyToClipboard>
+                                                                    </Col>
+                                                                </Row>
+                                                            </Container>
                                                         </ListGroup.Item>
                                                     )
                                                 })

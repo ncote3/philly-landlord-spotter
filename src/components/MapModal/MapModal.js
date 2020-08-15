@@ -75,7 +75,7 @@ export default function MapModal(props) {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Container>
+                    <Container class='MapModalMapBoxWrapper'>
                         <MapboxPropertyMap
                             landlord={props.owner}
                             data={landlordRes.data}

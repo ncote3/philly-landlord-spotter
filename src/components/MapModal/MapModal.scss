@@ -1,11 +1,14 @@
-.MapboxPropertyMapWrapper {
-  height: 50vh !important;
-  margin-bottom: 7vw; // not a solution I like
-  h3 {
-    text-align: center;
-  }
-  h5 {
-    text-align: center;
+
+.MapModalMapBoxWrapper{
+  .MapboxPropertyMapWrapper {
+    height: 50vh !important;
+    margin-bottom: 7vw; // not a solution I like
+    h3 {
+      text-align: center;
+    }
+    h5 {
+      text-align: center;
+    }
   }
 }
 

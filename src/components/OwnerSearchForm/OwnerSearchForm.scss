@@ -18,3 +18,12 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .OwnerSearchFormListGroup {
+    button {
+      font-size: 10pt;
+      margin-top: 2vw;
+    }
+  }
+}
