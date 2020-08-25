@@ -10,7 +10,6 @@ import Container from "react-bootstrap/Container";
 import axios from 'axios'
 import { makeUseAxios } from 'axios-hooks'
 import Badge from 'react-bootstrap/Badge';
-import citySVG from './../../assets/381804685-vector.svg';
 
 const useAxios = makeUseAxios({
     axios: axios.create({ baseURL: 'https://www.landlord-spotter-backend.xyz/' })
@@ -33,7 +32,6 @@ export default function OwnerPicker() {
                 className='ownerPickerWrapper'
                 style={{
                     paddingTop: '10vh',
-                    backgroundImage: `url(${citySVG})`,
                     textAlign: "center"
                 }}
             >
@@ -49,12 +47,7 @@ export default function OwnerPicker() {
         )
     } else if (significantLandlordsRes.error) {
         return (
-            <div
-                className='ownerPickerWrapper'
-                style={{
-                    backgroundImage: `url(${citySVG})`,
-                }}
-            >
+            <div className='ownerPickerWrapper'>
                 <Container>
                     <Alert variant='danger'>Error getting owner data!</Alert>
                 </Container>
@@ -63,12 +56,7 @@ export default function OwnerPicker() {
     } else {
         if (landlordRes.loading) {
             return (
-                <div
-                    className='ownerPickerWrapper'
-                    style={{
-                        backgroundImage: `url(${citySVG})`,
-                    }}
-                >
+                <div className='ownerPickerWrapper'>
                     <Container
                         style={{
                             paddingBottom: '1vw'
@@ -120,23 +108,13 @@ export default function OwnerPicker() {
             )
         } else if (landlordRes.error) {
             return (
-                <div
-                    className='ownerPickerWrapper'
-                     style={{
-                         backgroundImage: `url(${citySVG})`,
-                     }}
-                >
+                <div className='ownerPickerWrapper'>
                     <h3>Error! Map!</h3>
                 </div>
             )
         } else {
             return (
-                <div
-                    className='ownerPickerWrapper'
-                    style={{
-                        backgroundImage: `url(${citySVG})`,
-                    }}
-                >
+                <div className='ownerPickerWrapper'>
                     <Container className='ownerPickerContainer'>
                         <Row lg={2} sm={1} xs={1}>
                             <Col>

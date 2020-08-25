@@ -4,16 +4,10 @@ import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns'
 import './DataPage.scss';
-import citySVG from "../../assets/381804685-vector.svg";
 
 export default function DataPage() {
     return (
-        <div
-            className='DataPageWrapper'
-             style={{
-                 backgroundImage: `url(${citySVG})`,
-             }}
-        >
+        <div className='DataPageWrapper'>
             <Container className='DataPageContainer'>
                 <Jumbotron className='DataPageJumbotron'>
                     <h1>Data</h1>

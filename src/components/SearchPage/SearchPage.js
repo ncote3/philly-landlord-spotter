@@ -2,18 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import './SearchPage.scss';
-import citySVG from './../../assets/381804685-vector.svg';
 import OwnerSearchForm from "../OwnerSearchForm/OwnerSearchForm";
 import OwnerSearchExplainer from "../OwnerSearchExplainer/OwnerSearchExplainer";
 
 export default function OwnerPage() {
     return (
-        <div
-            className='SearchPageContainer'
-            style={{
-                backgroundImage: `url(${citySVG})`,
-            }}
-        >
+        <div className='SearchPageContainer'>
             <Container>
                 <Jumbotron className='SearchPageSection'>
                     <h1>Owner Search</h1>

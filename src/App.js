@@ -11,10 +11,14 @@ import ZipCodePage from "./components/ZipCodePage/ZipCodePage";
 import Home from "./components/Home/Home";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import SearchPage from "./components/SearchPage/SearchPage";
+import citySVG from "./assets/381804685-vector.svg";
 
 function App() {
     return (
-        <div className="App">
+        <div
+            className="App"
+             style={{backgroundImage: `url(${citySVG})`, height: "auto"}}
+        >
             <Router>
                 <Navbar bg="dark" variant="dark" expand="lg" fixed='top'>
                     <LinkContainer to={'/'}>

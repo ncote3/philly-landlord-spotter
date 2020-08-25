@@ -12,7 +12,6 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Badge from "react-bootstrap/Badge";
 import Col from "react-bootstrap/Col";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import MapModal from "../MapModal/MapModal";
 
 const useAxios = makeUseAxios({
@@ -137,7 +136,7 @@ export default function OwnerSearchForm() {
                                                         <ListGroup.Item className='OwnerSearchFormListGroup'>
                                                             <Container fluid>
                                                                 <Row>
-                                                                    <Col lg={4} md={4} xs={12}>
+                                                                    <Col lg={6} md={6} xs={12}>
                                                                         <p>{owner.item}</p>
                                                                     </Col>
                                                                     <Col lg={2} md={2} xs={12}>
@@ -163,11 +162,6 @@ export default function OwnerSearchForm() {
                                                                         >
                                                                             Zip Analysis
                                                                         </Button>
-                                                                    </Col>
-                                                                    <Col lg={2} md={2} xs={12}>
-                                                                        <CopyToClipboard text={owner.item}>
-                                                                            <Button variant='secondary'>Copy Owner</Button>
-                                                                        </CopyToClipboard>
                                                                     </Col>
                                                                 </Row>
                                                             </Container>

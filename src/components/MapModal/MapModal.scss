@@ -1,14 +1,30 @@
 
-.MapModalMapBoxWrapper{
+.MapboxPropertyMapWrapper {
+  height: 50vh !important;
+  margin-bottom: 7vw;
+}
+
+@media (max-width: 2560px) {
   .MapboxPropertyMapWrapper {
-    height: 50vh !important;
-    margin-bottom: 7vw; // not a solution I like
-    h3 {
-      text-align: center;
-    }
-    h5 {
-      text-align: center;
-    }
+    margin-bottom: 3vw;
+  }
+}
+
+@media (max-width: 1920px) {
+  .MapboxPropertyMapWrapper {
+    margin-bottom: 5vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  .MapboxPropertyMapWrapper {
+    margin-bottom: 7vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .MapboxPropertyMapWrapper {
+    margin-bottom: 9vw;
   }
 }
 

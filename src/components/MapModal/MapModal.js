@@ -36,8 +36,8 @@ export default function MapModal(props) {
                         <Spinner animation="border" variant="light" size={'lg'} >
                             <span className="sr-only">Getting Owner Data...</span>
                         </Spinner>
-                        <p>Getting Owner Data..</p>
-                    </div>`
+                        <p>Getting Owner Data...</p>
+                    </div>
                 </Modal.Body>
             </Modal>
         )

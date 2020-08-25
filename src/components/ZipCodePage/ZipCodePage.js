@@ -4,16 +4,10 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import IZipCodeBarChart from "../IZipCodeBarChart/IZipCodeBarChart";
 import './ZipCodePage.scss';
 import CWZipCodeBarChart from "../CWZipCodeBarChart/CWZipCodeBarChart";
-import citySVG from './../../assets/381804685-vector.svg';
 
 export default function ZipCodePage() {
     return (
-        <div
-            className='zipCodePageContainer'
-            style={{
-                backgroundImage: `url(${citySVG})`,
-            }}
-        >
+        <div className='zipCodePageContainer'>
             <Container>
                 <Jumbotron className='zipCodePageJumbotron'>
                     <h1>Zip Code Analysis</h1>

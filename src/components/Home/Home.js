@@ -1,11 +1,10 @@
 import React from "react";
 import './Home.scss';
-import citySVG from './../../assets/381804685-vector.svg';
 import HomeButton from "../HomeButton/HomeButton";
 
 export default function Home() {
     return (
-        <div className='home' style={{ backgroundImage: `url(${citySVG})`, }}>
+        <div className='home'>
             <div className="heroDivContainer">
                 <div className="heroDivOne">
                     <p className="heroText">Who Owns<br/>Philly?</p>
