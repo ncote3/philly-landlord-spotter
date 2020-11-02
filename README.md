@@ -1,9 +1,5 @@
-<p align="center">
-    <img src="https://philly-landlord-spotter.herokuapp.com/static/media/noun_Rose.66b7a080.svg" alt="Image of a rose"/>
-    <h1>philly-landlord-spotter</h1>
-    <h5>A React Visualization Project using Philadelphia's Open Data Program</h5>
-</p>
-
+# philly-landlord-spotter
+A React Visualization Project using Philadelphia's Open Data Program.
 
 ## Uses the Following Packages:
 * [react](https://github.com/facebook/react)
