@@ -1,9 +1,9 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from "react-bootstrap/Container";
-import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns'
 import './DataPage.scss';
+import DataExplainerCard from "../DataExplainerCard/DataExplainerCard";
 
 export default function DataPage() {
     return (
@@ -38,217 +38,74 @@ export default function DataPage() {
                         </div>
                         <div>
                             <CardColumns>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Owner 1 Name</Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>John Doe</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The primary owner
-                                                of a property.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>owner_1</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Owner 2 Name</Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>Jane Doe</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The secondary owner
-                                                of a property. This is not always provided.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>owner_2</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Street Address </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>123 Street Road</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The street address
-                                                of the property.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>location</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Geocoordinates  </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>[40.003088,-75.108357]</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The latitude and
-                                                longitude of a property.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>lat lng</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Sale Date  </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>2013-02-24</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The last recorded
-                                                sale of the property, in Year-Month-Day format.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>sale_date</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Sale Price  </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>40000.0</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The last recorded
-                                                sale of the property, in Dollar amount. If this field is
-                                                <span className='dataDescCardItalic'> 1.0</span> it is not an error.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>sale_price</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Year Built </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>2013-02-24</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The year the
-                                                property was built. <span className='dataDescCardBold'>Warning: </span>
-                                                this may be Unknown or an Estimate.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>year_built</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Year Built Estimate</Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>Y or N</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> If the year built
-                                                provided is an estimate.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>year_built_estimate</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Category </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>Commercial</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The type of
-                                                property.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>category_code_description</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Recording Date </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>2014-02-24</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The date the
-                                                property assessment was recorded.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>recording_date</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                <Card border={'dark'}>
-                                    <Card.Header className='dataDescCardBold dataDescCardHeader'>Zip Code </Card.Header>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Example: </span>
-                                                <span className={'dataDescCardItalic'}>19104</span>
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Description:</span> The zip code of
-                                                property. Truncated to the first five digits.
-                                            </p>
-                                            <p>
-                                                <span className={'dataDescCardBold'}>Data Reference: </span>
-                                                <span className={'dataDescCardItalic'}>zip_code</span>
-                                            </p>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                                <DataExplainerCard
+                                    title={'Owner 1 Name'}
+                                    example={'John Doe'}
+                                    description={'The primary owner of a property.'}
+                                    dataReference={'owner_1'}
+                                />
+                                <DataExplainerCard
+                                    title={'Owner 2 Name'}
+                                    example={'Jane Doe'}
+                                    description={'The secondary owner of a property. This is not always provided.'}
+                                    dataReference={'owner_2'}
+                                />
+                                <DataExplainerCard
+                                    title={'Street Address'}
+                                    example={'123 Street Road'}
+                                    description={'The street address of the property.'}
+                                    dataReference={'location'}
+                                />
+                                <DataExplainerCard
+                                    title={'Geocoordinates'}
+                                    example={'[40.003088,-75.108357]'}
+                                    description={'The latitude and longitude of a property.'}
+                                    dataReference={'lat lng'}
+                                />
+                                <DataExplainerCard
+                                    title={'Sale Price'}
+                                    example={'40000.0'}
+                                    description={[
+                                        'The last recorded sale of the property, in Dollar amount. If this field is ',
+                                        <span className='dataDescCardItalic'> 1.0</span>,
+                                        ' it is not an error.'
+                                    ]}
+                                    dataReference={'sale_price'}
+                                />
+                                <DataExplainerCard
+                                    title={'Year Built'}
+                                    example={'2013-02-24'}
+                                    description={[
+                                        'The year the property was built. ',
+                                        <span className='dataDescCardBold'>Warning:</span>,
+                                        ' this may be Unknown or an Estimate.'
+                                    ]}
+                                    dataReference={'year_built'}
+                                />
+                                <DataExplainerCard
+                                    title={'Year Built Estimate'}
+                                    example={'Y or N'}
+                                    description={'If the year built provided is an estimate.'}
+                                    dataReference={'year_built_estimate'}
+                                />
+                                <DataExplainerCard
+                                    title={'Category'}
+                                    example={'Commercial'}
+                                    description={'The type of property.'}
+                                    dataReference={'category_code_description'}
+                                />
+                                <DataExplainerCard
+                                    title={'Recording Date'}
+                                    example={'2014-02-24'}
+                                    description={'The date the property assessment was recorded.'}
+                                    dataReference={'recording_date'}
+                                />
+                                <DataExplainerCard
+                                    title={'Zip Code'}
+                                    example={'19104'}
+                                    description={'The zip code of property. Truncated to the first five digits.'}
+                                    dataReference={'zip_code'}
+                                />
                             </CardColumns>
                             <br/>
                         </div>

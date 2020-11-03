@@ -134,9 +134,6 @@ export default function OwnerPicker() {
                                 </div>
                             </Col>
                             <Col className='noMapCol'>
-                                {/*<div className='statsPanel'>*/}
-                                {/*/!*  Need to expose stats data on the API first  *!/*/}
-                                {/*</div>*/}
                                 <div>
                                     <h3 className='landlordSelector'>Landlord Selector</h3>
                                     <br/>
