@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with a selected zip: <div style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;" class="VictoryContainer"><svg width="900" height="525" role="img" viewBox="0 0 900 525" style="pointer-events: all; width: 100%; height: auto;"><text direction="inherit" dx="0" x="450" y="34.97">
+      <tspan x="450" dx="0" dy="0" text-anchor="middle" style="fill: white; font-size: 14px; font-family: 'Gill Sans', 'Gill Sans MT', 'Ser­avek', 'Trebuchet MS', sans-serif; stroke: transparent;">19104</tspan>
+    </text>
+    <g role="presentation">
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 459.9592139224205 
+A 0 0 0 0 1, 200, 459.9592139224205 
+L 200, 450.5026921832901 
+A 0 0 0 0 1, 200, 450.5026921832901 
+L 200, 450.5026921832901 
+A 0 0 0 0 1, 200, 450.5026921832901 
+L 200, 459.9592139224205 
+A 0 0 0 0 1, 200, 459.9592139224205 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 440.1901669752758 
+A 0 0 0 0 1, 200, 440.1901669752758 
+L 200, 430.73364523614543 
+A 0 0 0 0 1, 200, 430.73364523614543 
+L 200, 430.73364523614543 
+A 0 0 0 0 1, 200, 430.73364523614543 
+L 200, 440.1901669752758 
+A 0 0 0 0 1, 200, 440.1901669752758 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 420.4211200281311 
+A 0 0 0 0 1, 200, 420.4211200281311 
+L 200, 410.9645982890007 
+A 0 0 0 0 1, 200, 410.9645982890007 
+L 200, 410.9645982890007 
+A 0 0 0 0 1, 200, 410.9645982890007 
+L 200, 420.4211200281311 
+A 0 0 0 0 1, 200, 420.4211200281311 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 400.65207308098644 
+A 0 0 0 0 1, 200, 400.65207308098644 
+L 200, 391.19555134185606 
+A 0 0 0 0 1, 200, 391.19555134185606 
+L 200, 391.19555134185606 
+A 0 0 0 0 1, 200, 391.19555134185606 
+L 200, 400.65207308098644 
+A 0 0 0 0 1, 200, 400.65207308098644 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 380.8830261338417 
+A 0 0 0 0 1, 200, 380.8830261338417 
+L 200, 371.42650439471134 
+A 0 0 0 0 1, 200, 371.42650439471134 
+L 200, 371.42650439471134 
+A 0 0 0 0 1, 200, 371.42650439471134 
+L 200, 380.8830261338417 
+A 0 0 0 0 1, 200, 380.8830261338417 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 361.11397918669707 
+A 0 0 0 0 1, 200, 361.11397918669707 
+L 200, 351.6574574475667 
+A 0 0 0 0 1, 200, 351.6574574475667 
+L 200, 351.6574574475667 
+A 0 0 0 0 1, 200, 351.6574574475667 
+L 200, 361.11397918669707 
+A 0 0 0 0 1, 200, 361.11397918669707 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 341.3449322395524 
+A 0 0 0 0 1, 200, 341.3449322395524 
+L 200, 331.888410500422 
+A 0 0 0 0 1, 200, 331.888410500422 
+L 200, 331.888410500422 
+A 0 0 0 0 1, 200, 331.888410500422 
+L 200, 341.3449322395524 
+A 0 0 0 0 1, 200, 341.3449322395524 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 321.57588529240775 
+A 0 0 0 0 1, 200, 321.57588529240775 
+L 200, 312.11936355327737 
+A 0 0 0 0 1, 200, 312.11936355327737 
+L 200, 312.11936355327737 
+A 0 0 0 0 1, 200, 312.11936355327737 
+L 200, 321.57588529240775 
+A 0 0 0 0 1, 200, 321.57588529240775 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 301.80683834526303 
+A 0 0 0 0 1, 200, 301.80683834526303 
+L 200, 292.35031660613265 
+A 0 0 0 0 1, 200, 292.35031660613265 
+L 200, 292.35031660613265 
+A 0 0 0 0 1, 200, 292.35031660613265 
+L 200, 301.80683834526303 
+A 0 0 0 0 1, 200, 301.80683834526303 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 282.0377913981184 
+A 0 0 0 0 1, 200, 282.0377913981184 
+L 200, 272.581269658988 
+A 0 0 0 0 1, 200, 272.581269658988 
+L 200, 272.581269658988 
+A 0 0 0 0 1, 200, 272.581269658988 
+L 200, 282.0377913981184 
+A 0 0 0 0 1, 200, 282.0377913981184 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 262.2687444509737 
+A 0 0 0 0 1, 200, 262.2687444509737 
+L 200, 252.8122227118433 
+A 0 0 0 0 1, 200, 252.8122227118433 
+L 200, 252.8122227118433 
+A 0 0 0 0 1, 200, 252.8122227118433 
+L 200, 262.2687444509737 
+A 0 0 0 0 1, 200, 262.2687444509737 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 242.499697503829 
+A 0 0 0 0 1, 200, 242.499697503829 
+L 200, 233.04317576469856 
+A 0 0 0 0 1, 200, 233.04317576469856 
+L 200, 233.04317576469856 
+A 0 0 0 0 1, 200, 233.04317576469856 
+L 200, 242.499697503829 
+A 0 0 0 0 1, 200, 242.499697503829 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 222.73065055668437 
+A 0 0 0 0 1, 200, 222.73065055668437 
+L 200, 213.27412881755393 
+A 0 0 0 0 1, 200, 213.27412881755393 
+L 200, 213.27412881755393 
+A 0 0 0 0 1, 200, 213.27412881755393 
+L 200, 222.73065055668437 
+A 0 0 0 0 1, 200, 222.73065055668437 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 202.96160360953968 
+A 0 0 0 0 1, 200, 202.96160360953968 
+L 200, 193.50508187040924 
+A 0 0 0 0 1, 200, 193.50508187040924 
+L 200, 193.50508187040924 
+A 0 0 0 0 1, 200, 193.50508187040924 
+L 200, 202.96160360953968 
+A 0 0 0 0 1, 200, 202.96160360953968 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 183.192556662395 
+A 0 0 0 0 1, 200, 183.192556662395 
+L 200, 173.73603492326455 
+A 0 0 0 0 1, 200, 173.73603492326455 
+L 200, 173.73603492326455 
+A 0 0 0 0 1, 200, 173.73603492326455 
+L 200, 183.192556662395 
+A 0 0 0 0 1, 200, 183.192556662395 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 163.4235097152503 
+A 0 0 0 0 1, 200, 163.4235097152503 
+L 200, 153.96698797611987 
+A 0 0 0 0 1, 200, 153.96698797611987 
+L 200, 153.96698797611987 
+A 0 0 0 0 1, 200, 153.96698797611987 
+L 200, 163.4235097152503 
+A 0 0 0 0 1, 200, 163.4235097152503 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 143.6544627681056 
+A 0 0 0 0 1, 200, 143.6544627681056 
+L 200, 134.19794102897515 
+A 0 0 0 0 1, 200, 134.19794102897515 
+L 200, 134.19794102897515 
+A 0 0 0 0 1, 200, 134.19794102897515 
+L 200, 143.6544627681056 
+A 0 0 0 0 1, 200, 143.6544627681056 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 123.8854158209609 
+A 0 0 0 0 1, 200, 123.8854158209609 
+L 200, 114.42889408183046 
+A 0 0 0 0 1, 200, 114.42889408183046 
+L 200, 114.42889408183046 
+A 0 0 0 0 1, 200, 114.42889408183046 
+L 200, 123.8854158209609 
+A 0 0 0 0 1, 200, 123.8854158209609 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 104.11636887381621 
+A 0 0 0 0 1, 200, 104.11636887381621 
+L 200, 94.65984713468578 
+A 0 0 0 0 1, 200, 94.65984713468578 
+L 200, 94.65984713468578 
+A 0 0 0 0 1, 200, 94.65984713468578 
+L 200, 104.11636887381621 
+A 0 0 0 0 1, 200, 104.11636887381621 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 84.34732192667153 
+A 0 0 0 0 1, 200, 84.34732192667153 
+L 200, 74.89080018754109 
+A 0 0 0 0 1, 200, 74.89080018754109 
+L 200, 74.89080018754109 
+A 0 0 0 0 1, 200, 74.89080018754109 
+L 200, 84.34732192667153 
+A 0 0 0 0 1, 200, 84.34732192667153 
+ z" role="presentation" shape-rendering="auto"></path>
+      <path style="fill: white; stroke: white; padding: 8px; stroke-width: 0;" d="M 200, 64.57827497952684 
+A 0 0 0 0 1, 200, 64.57827497952684 
+L 200, 55.1217532403964 
+A 0 0 0 0 1, 200, 55.1217532403964 
+L 200, 55.1217532403964 
+A 0 0 0 0 1, 200, 55.1217532403964 
+L 200, 64.57827497952684 
+A 0 0 0 0 1, 200, 64.57827497952684 
+ z" role="presentation" shape-rendering="auto"></path>
+    </g>
+    <g role="presentation">
+      <line vector-effect="non-scaling-stroke" style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;" role="presentation" shape-rendering="auto" x1="200" x2="200" y1="40" y2="475"></line>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="459.4909530528553" id="chart-axis-2-tickLabels-0">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">PHILADELPHIA HOUSING AUTH</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="439.7219061057106" id="chart-axis-2-tickLabels-1">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">CITY OF PHILA</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="419.9528591585659" id="chart-axis-2-tickLabels-2">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">REDEVELOPMENT AUTHORITY</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="400.18381221142124" id="chart-axis-2-tickLabels-3">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">PHILA HOUSING AUTHORITY</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="380.4147652642765" id="chart-axis-2-tickLabels-4">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">TRS UNIV OF PENN</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="360.64571831713187" id="chart-axis-2-tickLabels-5">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">PHILADELPHIA LAND BANK</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="340.8766713699872" id="chart-axis-2-tickLabels-6">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">DREXEL UNIVERSITY</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="321.10762442284255" id="chart-axis-2-tickLabels-7">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">PHILA REDEVELOPMENT AUTH</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="301.33857747569783" id="chart-axis-2-tickLabels-8">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">BELMONT AFFORDABLE HOUSIN</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="281.5695305285532" id="chart-axis-2-tickLabels-9">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">SIMON ASSOCIATES_LIMITED</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="261.8004835814085" id="chart-axis-2-tickLabels-10">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">GEENA LLC</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="242.03143663426377" id="chart-axis-2-tickLabels-11">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">TRUSTEES OF THE UNIVERSIT</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="222.26238968711914" id="chart-axis-2-tickLabels-12">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">NEIGHBORHOOD RESTORATIONS</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="202.49334273997445" id="chart-axis-2-tickLabels-13">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">CITY OF PHILADELPHIA</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="182.72429579282976" id="chart-axis-2-tickLabels-14">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">SCHWARTZ SHELDON</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="162.95524884568508" id="chart-axis-2-tickLabels-15">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">BROOKLYN HEIGHTS LP</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="143.18620189854036" id="chart-axis-2-tickLabels-16">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">CAMPUS REALTY PROPERTIES</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="123.41715495139569" id="chart-axis-2-tickLabels-17">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">STRONG PROPERTIES LLC</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="103.648108004251" id="chart-axis-2-tickLabels-18">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">WPRE II LP</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="83.87906105710631" id="chart-axis-2-tickLabels-19">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">GILLER REALTY LLC</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="189" y="64.11001410996163" id="chart-axis-2-tickLabels-20">
+          <tspan x="189" dx="0" dy="0" text-anchor="end" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">AHM PROPERTIES LLC</tspan>
+        </text></g>
+    </g>
+    <g role="presentation">
+      <line vector-effect="non-scaling-stroke" style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;" role="presentation" shape-rendering="auto" x1="200" x2="900" y1="475" y2="475"></line><text direction="inherit" dx="0" x="550" y="510.26" id="chart-axis-3-axisLabel-0">
+        <tspan x="550" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; text-anchor: middle; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 25px; stroke: transparent;">No. Properties</tspan>
+      </text>
+      <g role="presentation"><text direction="inherit" dx="0" x="299.1276764472641" y="496.26" id="chart-axis-3-tickLabels-0">
+          <tspan x="299.1276764472641" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">50</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="398.2553528945282" y="496.26" id="chart-axis-3-tickLabels-1">
+          <tspan x="398.2553528945282" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">100</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="497.3830293417923" y="496.26" id="chart-axis-3-tickLabels-2">
+          <tspan x="497.3830293417923" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">150</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="596.5107057890564" y="496.26" id="chart-axis-3-tickLabels-3">
+          <tspan x="596.5107057890564" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">200</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="695.6383822363204" y="496.26" id="chart-axis-3-tickLabels-4">
+          <tspan x="695.6383822363204" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">250</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="794.7660586835846" y="496.26" id="chart-axis-3-tickLabels-5">
+          <tspan x="794.7660586835846" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">300</tspan>
+        </text></g>
+      <g role="presentation"><text direction="inherit" dx="0" x="893.8937351308485" y="496.26" id="chart-axis-3-tickLabels-6">
+          <tspan x="893.8937351308485" dx="0" dy="0" text-anchor="middle" style="font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;">350</tspan>
+        </text></g>
+    </g>
+  </svg>
+  <div style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: auto;"><svg width="900" height="525" viewBox="0 0 900 525" style="overflow: visible; width: 100%; height: auto;"></svg></div>
+</div> 1`] = `
+"<div style=\\"height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;\\" class=\\"VictoryContainer\\"><svg width=\\"900\\" height=\\"525\\" role=\\"img\\" viewBox=\\"0 0 900 525\\" style=\\"pointer-events: all; width: 100%; height: auto;\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"450\\" y=\\"34.97\\"><tspan x=\\"450\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"fill: white; font-size: 14px; font-family: 'Gill Sans', 'Gill Sans MT', 'Ser­avek', 'Trebuchet MS', sans-serif; stroke: transparent;\\">19104</tspan></text><g role=\\"presentation\\"><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 459.9592139224205 
+A 0 0 0 0 1, 200, 459.9592139224205 
+L 200, 450.5026921832901 
+A 0 0 0 0 1, 200, 450.5026921832901 
+L 200, 450.5026921832901 
+A 0 0 0 0 1, 200, 450.5026921832901 
+L 200, 459.9592139224205 
+A 0 0 0 0 1, 200, 459.9592139224205 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 440.1901669752758 
+A 0 0 0 0 1, 200, 440.1901669752758 
+L 200, 430.73364523614543 
+A 0 0 0 0 1, 200, 430.73364523614543 
+L 200, 430.73364523614543 
+A 0 0 0 0 1, 200, 430.73364523614543 
+L 200, 440.1901669752758 
+A 0 0 0 0 1, 200, 440.1901669752758 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 420.4211200281311 
+A 0 0 0 0 1, 200, 420.4211200281311 
+L 200, 410.9645982890007 
+A 0 0 0 0 1, 200, 410.9645982890007 
+L 200, 410.9645982890007 
+A 0 0 0 0 1, 200, 410.9645982890007 
+L 200, 420.4211200281311 
+A 0 0 0 0 1, 200, 420.4211200281311 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 400.65207308098644 
+A 0 0 0 0 1, 200, 400.65207308098644 
+L 200, 391.19555134185606 
+A 0 0 0 0 1, 200, 391.19555134185606 
+L 200, 391.19555134185606 
+A 0 0 0 0 1, 200, 391.19555134185606 
+L 200, 400.65207308098644 
+A 0 0 0 0 1, 200, 400.65207308098644 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 380.8830261338417 
+A 0 0 0 0 1, 200, 380.8830261338417 
+L 200, 371.42650439471134 
+A 0 0 0 0 1, 200, 371.42650439471134 
+L 200, 371.42650439471134 
+A 0 0 0 0 1, 200, 371.42650439471134 
+L 200, 380.8830261338417 
+A 0 0 0 0 1, 200, 380.8830261338417 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 361.11397918669707 
+A 0 0 0 0 1, 200, 361.11397918669707 
+L 200, 351.6574574475667 
+A 0 0 0 0 1, 200, 351.6574574475667 
+L 200, 351.6574574475667 
+A 0 0 0 0 1, 200, 351.6574574475667 
+L 200, 361.11397918669707 
+A 0 0 0 0 1, 200, 361.11397918669707 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 341.3449322395524 
+A 0 0 0 0 1, 200, 341.3449322395524 
+L 200, 331.888410500422 
+A 0 0 0 0 1, 200, 331.888410500422 
+L 200, 331.888410500422 
+A 0 0 0 0 1, 200, 331.888410500422 
+L 200, 341.3449322395524 
+A 0 0 0 0 1, 200, 341.3449322395524 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 321.57588529240775 
+A 0 0 0 0 1, 200, 321.57588529240775 
+L 200, 312.11936355327737 
+A 0 0 0 0 1, 200, 312.11936355327737 
+L 200, 312.11936355327737 
+A 0 0 0 0 1, 200, 312.11936355327737 
+L 200, 321.57588529240775 
+A 0 0 0 0 1, 200, 321.57588529240775 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 301.80683834526303 
+A 0 0 0 0 1, 200, 301.80683834526303 
+L 200, 292.35031660613265 
+A 0 0 0 0 1, 200, 292.35031660613265 
+L 200, 292.35031660613265 
+A 0 0 0 0 1, 200, 292.35031660613265 
+L 200, 301.80683834526303 
+A 0 0 0 0 1, 200, 301.80683834526303 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 282.0377913981184 
+A 0 0 0 0 1, 200, 282.0377913981184 
+L 200, 272.581269658988 
+A 0 0 0 0 1, 200, 272.581269658988 
+L 200, 272.581269658988 
+A 0 0 0 0 1, 200, 272.581269658988 
+L 200, 282.0377913981184 
+A 0 0 0 0 1, 200, 282.0377913981184 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 262.2687444509737 
+A 0 0 0 0 1, 200, 262.2687444509737 
+L 200, 252.8122227118433 
+A 0 0 0 0 1, 200, 252.8122227118433 
+L 200, 252.8122227118433 
+A 0 0 0 0 1, 200, 252.8122227118433 
+L 200, 262.2687444509737 
+A 0 0 0 0 1, 200, 262.2687444509737 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 242.499697503829 
+A 0 0 0 0 1, 200, 242.499697503829 
+L 200, 233.04317576469856 
+A 0 0 0 0 1, 200, 233.04317576469856 
+L 200, 233.04317576469856 
+A 0 0 0 0 1, 200, 233.04317576469856 
+L 200, 242.499697503829 
+A 0 0 0 0 1, 200, 242.499697503829 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 222.73065055668437 
+A 0 0 0 0 1, 200, 222.73065055668437 
+L 200, 213.27412881755393 
+A 0 0 0 0 1, 200, 213.27412881755393 
+L 200, 213.27412881755393 
+A 0 0 0 0 1, 200, 213.27412881755393 
+L 200, 222.73065055668437 
+A 0 0 0 0 1, 200, 222.73065055668437 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 202.96160360953968 
+A 0 0 0 0 1, 200, 202.96160360953968 
+L 200, 193.50508187040924 
+A 0 0 0 0 1, 200, 193.50508187040924 
+L 200, 193.50508187040924 
+A 0 0 0 0 1, 200, 193.50508187040924 
+L 200, 202.96160360953968 
+A 0 0 0 0 1, 200, 202.96160360953968 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 183.192556662395 
+A 0 0 0 0 1, 200, 183.192556662395 
+L 200, 173.73603492326455 
+A 0 0 0 0 1, 200, 173.73603492326455 
+L 200, 173.73603492326455 
+A 0 0 0 0 1, 200, 173.73603492326455 
+L 200, 183.192556662395 
+A 0 0 0 0 1, 200, 183.192556662395 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 163.4235097152503 
+A 0 0 0 0 1, 200, 163.4235097152503 
+L 200, 153.96698797611987 
+A 0 0 0 0 1, 200, 153.96698797611987 
+L 200, 153.96698797611987 
+A 0 0 0 0 1, 200, 153.96698797611987 
+L 200, 163.4235097152503 
+A 0 0 0 0 1, 200, 163.4235097152503 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 143.6544627681056 
+A 0 0 0 0 1, 200, 143.6544627681056 
+L 200, 134.19794102897515 
+A 0 0 0 0 1, 200, 134.19794102897515 
+L 200, 134.19794102897515 
+A 0 0 0 0 1, 200, 134.19794102897515 
+L 200, 143.6544627681056 
+A 0 0 0 0 1, 200, 143.6544627681056 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 123.8854158209609 
+A 0 0 0 0 1, 200, 123.8854158209609 
+L 200, 114.42889408183046 
+A 0 0 0 0 1, 200, 114.42889408183046 
+L 200, 114.42889408183046 
+A 0 0 0 0 1, 200, 114.42889408183046 
+L 200, 123.8854158209609 
+A 0 0 0 0 1, 200, 123.8854158209609 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 104.11636887381621 
+A 0 0 0 0 1, 200, 104.11636887381621 
+L 200, 94.65984713468578 
+A 0 0 0 0 1, 200, 94.65984713468578 
+L 200, 94.65984713468578 
+A 0 0 0 0 1, 200, 94.65984713468578 
+L 200, 104.11636887381621 
+A 0 0 0 0 1, 200, 104.11636887381621 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 84.34732192667153 
+A 0 0 0 0 1, 200, 84.34732192667153 
+L 200, 74.89080018754109 
+A 0 0 0 0 1, 200, 74.89080018754109 
+L 200, 74.89080018754109 
+A 0 0 0 0 1, 200, 74.89080018754109 
+L 200, 84.34732192667153 
+A 0 0 0 0 1, 200, 84.34732192667153 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path><path style=\\"fill: white; stroke: white; padding: 8px; stroke-width: 0;\\" d=\\"M 200, 64.57827497952684 
+A 0 0 0 0 1, 200, 64.57827497952684 
+L 200, 55.1217532403964 
+A 0 0 0 0 1, 200, 55.1217532403964 
+L 200, 55.1217532403964 
+A 0 0 0 0 1, 200, 55.1217532403964 
+L 200, 64.57827497952684 
+A 0 0 0 0 1, 200, 64.57827497952684 
+ z\\" role=\\"presentation\\" shape-rendering=\\"auto\\"></path></g><g role=\\"presentation\\"><line vector-effect=\\"non-scaling-stroke\\" style=\\"stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;\\" role=\\"presentation\\" shape-rendering=\\"auto\\" x1=\\"200\\" x2=\\"200\\" y1=\\"40\\" y2=\\"475\\"></line><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"459.4909530528553\\" id=\\"chart-axis-2-tickLabels-0\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">PHILADELPHIA HOUSING AUTH</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"439.7219061057106\\" id=\\"chart-axis-2-tickLabels-1\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">CITY OF PHILA</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"419.9528591585659\\" id=\\"chart-axis-2-tickLabels-2\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">REDEVELOPMENT AUTHORITY</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"400.18381221142124\\" id=\\"chart-axis-2-tickLabels-3\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">PHILA HOUSING AUTHORITY</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"380.4147652642765\\" id=\\"chart-axis-2-tickLabels-4\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">TRS UNIV OF PENN</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"360.64571831713187\\" id=\\"chart-axis-2-tickLabels-5\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">PHILADELPHIA LAND BANK</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"340.8766713699872\\" id=\\"chart-axis-2-tickLabels-6\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">DREXEL UNIVERSITY</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"321.10762442284255\\" id=\\"chart-axis-2-tickLabels-7\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">PHILA REDEVELOPMENT AUTH</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"301.33857747569783\\" id=\\"chart-axis-2-tickLabels-8\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">BELMONT AFFORDABLE HOUSIN</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"281.5695305285532\\" id=\\"chart-axis-2-tickLabels-9\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">SIMON ASSOCIATES_LIMITED</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"261.8004835814085\\" id=\\"chart-axis-2-tickLabels-10\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">GEENA LLC</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"242.03143663426377\\" id=\\"chart-axis-2-tickLabels-11\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">TRUSTEES OF THE UNIVERSIT</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"222.26238968711914\\" id=\\"chart-axis-2-tickLabels-12\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">NEIGHBORHOOD RESTORATIONS</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"202.49334273997445\\" id=\\"chart-axis-2-tickLabels-13\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">CITY OF PHILADELPHIA</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"182.72429579282976\\" id=\\"chart-axis-2-tickLabels-14\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">SCHWARTZ SHELDON</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"162.95524884568508\\" id=\\"chart-axis-2-tickLabels-15\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">BROOKLYN HEIGHTS LP</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"143.18620189854036\\" id=\\"chart-axis-2-tickLabels-16\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">CAMPUS REALTY PROPERTIES</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"123.41715495139569\\" id=\\"chart-axis-2-tickLabels-17\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">STRONG PROPERTIES LLC</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"103.648108004251\\" id=\\"chart-axis-2-tickLabels-18\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">WPRE II LP</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"83.87906105710631\\" id=\\"chart-axis-2-tickLabels-19\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">GILLER REALTY LLC</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"189\\" y=\\"64.11001410996163\\" id=\\"chart-axis-2-tickLabels-20\\"><tspan x=\\"189\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"end\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">AHM PROPERTIES LLC</tspan></text></g></g><g role=\\"presentation\\"><line vector-effect=\\"non-scaling-stroke\\" style=\\"stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;\\" role=\\"presentation\\" shape-rendering=\\"auto\\" x1=\\"200\\" x2=\\"900\\" y1=\\"475\\" y2=\\"475\\"></line><text direction=\\"inherit\\" dx=\\"0\\" x=\\"550\\" y=\\"510.26\\" id=\\"chart-axis-3-axisLabel-0\\"><tspan x=\\"550\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; text-anchor: middle; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 25px; stroke: transparent;\\">No. Properties</tspan></text><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"299.1276764472641\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-0\\"><tspan x=\\"299.1276764472641\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">50</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"398.2553528945282\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-1\\"><tspan x=\\"398.2553528945282\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">100</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"497.3830293417923\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-2\\"><tspan x=\\"497.3830293417923\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">150</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"596.5107057890564\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-3\\"><tspan x=\\"596.5107057890564\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">200</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"695.6383822363204\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-4\\"><tspan x=\\"695.6383822363204\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">250</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"794.7660586835846\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-5\\"><tspan x=\\"794.7660586835846\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">300</tspan></text></g><g role=\\"presentation\\"><text direction=\\"inherit\\" dx=\\"0\\" x=\\"893.8937351308485\\" y=\\"496.26\\" id=\\"chart-axis-3-tickLabels-6\\"><tspan x=\\"893.8937351308485\\" dx=\\"0\\" dy=\\"0\\" text-anchor=\\"middle\\" style=\\"font-size: 12px; fill: white; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; padding: 10px; stroke: transparent;\\">350</tspan></text></g></g></svg><div style=\\"z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: auto;\\"><svg width=\\"900\\" height=\\"525\\" viewBox=\\"0 0 900 525\\" style=\\"overflow: visible; width: 100%; height: auto;\\"></svg></div></div>"
+`;

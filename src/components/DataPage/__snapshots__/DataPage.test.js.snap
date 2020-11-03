@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly: <div class="DataPageWrapper">
+  <div class="DataPageContainer container">
+    <div class="DataPageJumbotron jumbotron">
+      <h1>Data</h1>
+      <p>An explanation on where this data came from and what it contains.</p>
+    </div>
+    <div class="DataPageSection whiteText">
+      <div class="container">
+        <h1>Data Source</h1>
+        <p>In 2012 the City of Philadelphia began pursuing and enacting a public open data program through<a href="https://www.opendataphilly.org/"> OpenDataPhilly</a>. The data used in this project is provided by the aforementioned program, in their<a href="https://www.opendataphilly.org/dataset/opa-property-assessments"> Property Assessment </a>dataset. Publicly available, anyone can view or use the dataset without barrier.</p>
+      </div>
+    </div>
+    <div class="DataPageSection">
+      <div class="container">
+        <div class="whiteText">
+          <h1>Data Description</h1>
+          <p>This dataset is comprised on completely public information. It does not contain any personal information about who lives in a property or the vacancy status of the properties.<br>The data used for this site contains the following for each property listed:</p>
+        </div>
+        <div>
+          <div class="card-columns">
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Owner 1 Name</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">John Doe</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The primary owner of a property.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">owner_1</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Owner 2 Name</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">Jane Doe</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The secondary owner of a property. This is not always provided.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">owner_2</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Street Address</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">123 Street Road</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The street address of the property.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">location</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Geocoordinates</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">[40.003088,-75.108357]</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The latitude and longitude of a property.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">lat lng</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Sale Price</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">40000.0</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The last recorded sale of the property, in Dollar amount. If this field is <span class="dataDescCardItalic"> 1.0</span> it is not an error.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">sale_price</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Year Built</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">2013-02-24</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The year the property was built. <span class="dataDescCardBold">Warning:</span> this may be Unknown or an Estimate.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">year_built</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Year Built Estimate</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">Y or N</span></p>
+                <p><span class="dataDescCardBold">Description:</span>If the year built provided is an estimate.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">year_built_estimate</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Category</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">Commercial</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The type of property.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">category_code_description</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Recording Date</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">2014-02-24</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The date the property assessment was recorded.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">recording_date</span></p>
+                </p>
+              </div>
+            </div>
+            <div class="card border-dark">
+              <div class="dataDescCardBold dataDescCardHeader card-header">Zip Code</div>
+              <div class="card-body">
+                <p class="card-text">
+                <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">19104</span></p>
+                <p><span class="dataDescCardBold">Description:</span>The zip code of property. Truncated to the first five digits.</p>
+                <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">zip_code</span></p>
+                </p>
+              </div>
+            </div>
+          </div><br>
+        </div>
+      </div>
+    </div>
+    <div class="DataPageSection whiteText">
+      <div class="container">
+        <h1>Data Handling</h1>
+        <p>This site was put together by an experienced tenant organizer in the Philadelphia area. As this information is public, data is only considered for omitting after a complaint is sent to <a href="mailto:phl.landlord.spotter@gmail.com">phl.landlord.spotter@gmail.com</a>.</p>
+      </div>
+    </div>
+    <div class="DataPageSection whiteText">
+      <div class="container">
+        <h1>Data Concerns</h1>
+        <p>If you have a concern or issue with this site or the data displayed on it please email <a href="mailto:phl.landlord.spotter@gmail.com">phl.landlord.spotter@gmail.com</a>.</p>
+      </div>
+    </div>
+  </div>
+</div> 1`] = `"<div class=\\"DataPageWrapper\\"><div class=\\"DataPageContainer container\\"><div class=\\"DataPageJumbotron jumbotron\\"><h1>Data</h1><p>An explanation on where this data came from and what it contains.</p></div><div class=\\"DataPageSection whiteText\\"><div class=\\"container\\"><h1>Data Source</h1><p>In 2012 the City of Philadelphia began pursuing and enacting a public open data program through<a href=\\"https://www.opendataphilly.org/\\"> OpenDataPhilly</a>. The data used in this project is provided by the aforementioned program, in their<a href=\\"https://www.opendataphilly.org/dataset/opa-property-assessments\\"> Property Assessment </a>dataset. Publicly available, anyone can view or use the dataset without barrier.</p></div></div><div class=\\"DataPageSection\\"><div class=\\"container\\"><div class=\\"whiteText\\"><h1>Data Description</h1><p>This dataset is comprised on completely public information. It does not contain any personal information about who lives in a property or the vacancy status of the properties.<br>The data used for this site contains the following for each property listed:</p></div><div><div class=\\"card-columns\\"><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Owner 1 Name</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">John Doe</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The primary owner of a property.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">owner_1</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Owner 2 Name</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">Jane Doe</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The secondary owner of a property. This is not always provided.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">owner_2</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Street Address</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">123 Street Road</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The street address of the property.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">location</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Geocoordinates</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">[40.003088,-75.108357]</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The latitude and longitude of a property.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">lat lng</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Sale Price</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">40000.0</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The last recorded sale of the property, in Dollar amount. If this field is <span class=\\"dataDescCardItalic\\"> 1.0</span> it is not an error.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">sale_price</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Year Built</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">2013-02-24</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The year the property was built. <span class=\\"dataDescCardBold\\">Warning:</span> this may be Unknown or an Estimate.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">year_built</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Year Built Estimate</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">Y or N</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>If the year built provided is an estimate.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">year_built_estimate</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Category</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">Commercial</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The type of property.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">category_code_description</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Recording Date</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">2014-02-24</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The date the property assessment was recorded.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">recording_date</span></p></p></div></div><div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Zip Code</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">19104</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>The zip code of property. Truncated to the first five digits.</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">zip_code</span></p></p></div></div></div><br></div></div></div><div class=\\"DataPageSection whiteText\\"><div class=\\"container\\"><h1>Data Handling</h1><p>This site was put together by an experienced tenant organizer in the Philadelphia area. As this information is public, data is only considered for omitting after a complaint is sent to <a href=\\"mailto:phl.landlord.spotter@gmail.com\\">phl.landlord.spotter@gmail.com</a>.</p></div></div><div class=\\"DataPageSection whiteText\\"><div class=\\"container\\"><h1>Data Concerns</h1><p>If you have a concern or issue with this site or the data displayed on it please email <a href=\\"mailto:phl.landlord.spotter@gmail.com\\">phl.landlord.spotter@gmail.com</a>.</p></div></div></div></div>"`;

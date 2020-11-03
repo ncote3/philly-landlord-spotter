@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Axios Hook Aspects renders correctly with a loading state 1`] = `""`;
+
+exports[`Axios Hook Aspects renders correctly with an error state 1`] = `""`;
+
+exports[`Axios Hook Aspects renders correctly with data 1`] = `""`;

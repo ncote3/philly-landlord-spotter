@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with props: <div class="card border-dark">
+  <div class="dataDescCardBold dataDescCardHeader card-header">Title</div>
+  <div class="card-body">
+    <p class="card-text">
+    <p><span class="dataDescCardBold">Example: </span><span class="dataDescCardItalic">Example</span></p>
+    <p><span class="dataDescCardBold">Description:</span>Desc</p>
+    <p><span class="dataDescCardBold">Data Reference: </span><span class="dataDescCardItalic">Data Ref</span></p>
+    </p>
+  </div>
+</div> 1`] = `"<div class=\\"card border-dark\\"><div class=\\"dataDescCardBold dataDescCardHeader card-header\\">Title</div><div class=\\"card-body\\"><p class=\\"card-text\\"><p><span class=\\"dataDescCardBold\\">Example: </span><span class=\\"dataDescCardItalic\\">Example</span></p><p><span class=\\"dataDescCardBold\\">Description:</span>Desc</p><p><span class=\\"dataDescCardBold\\">Data Reference: </span><span class=\\"dataDescCardItalic\\">Data Ref</span></p></p></div></div>"`;
