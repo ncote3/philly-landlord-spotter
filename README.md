@@ -48,6 +48,7 @@ by [Ryan Briggs](https://twitter.com/rw_briggs)
 * [Who owns what in nyc?](https://whoownswhat.justfix.nyc/en/)
     * [Github Project](https://github.com/JustFixNYC/who-owns-what)
 * [Find My Landlord](https://findmylandlord.chicagodsa.org/)
+* [Philadelphia Atlas](https://atlas.phila.gov/)
 
 ## Uses the Following Packages:
 * [react](https://github.com/facebook/react)
