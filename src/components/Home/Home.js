@@ -10,9 +10,10 @@ export default function Home() {
                     <p className="heroText">Who Owns<br/>Philly?</p>
                 </div>
                 <div className='bottomButtonRow'>
-                    <HomeButton link={'/ownerPicker'} fontSize='24pt' text='View Map' />
+                    <HomeButton link={'/ownerPicker'} fontSize='18pt' text='View Property Map' />
                     <HomeButton link={'/zipCodeAnalysis'} fontSize='18pt' text='Zip Code Analysis' />
-                    <HomeButton link={'/data'} fontSize='24pt' text='Data Info' />
+                    <HomeButton link={'/ownerSearch'} fontSize='18pt' text='Owner Search' />
+                    <HomeButton link={'/data'} fontSize='18pt' text='Data Info' nameClass='homeButton bottomRow'/>
                 </div>
             </div>
         </div>

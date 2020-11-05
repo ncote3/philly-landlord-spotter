@@ -3,9 +3,9 @@ import './HomeButton.scss';
 import {LinkContainer} from "react-router-bootstrap";
 
 export default function HomeButton(props) {
-    const {fontSize, link, text} = props;
+    const {fontSize, link, text, nameClass} = props;
     return (
-        <div className='homeButton'>
+        <div className={nameClass ? nameClass : 'homeButton'}>
             <LinkContainer
                 className='homeLink'
                 style={{fontSize: fontSize}}

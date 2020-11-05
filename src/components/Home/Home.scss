@@ -15,6 +15,8 @@
     .bottomButtonRow {
       margin-top: 3vw;
       display: flex;
+      flex-flow: row wrap;
+      width: 60%;
     }
     .heroDivOne {
       width: 45vw;

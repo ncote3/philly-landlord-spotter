@@ -1,6 +1,5 @@
 import React from "react";
-import useAxios, {makeUseAxios} from "axios-hooks";
-import axios from "axios";
+import useAxios from "axios-hooks";
 import Spinner from "react-bootstrap/Spinner";
 import Alert from "react-bootstrap/Alert";
 import BarChart from "../BarChart/BarChart";
@@ -8,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import './CWZipCodeBarChart.scss';
 
 export default function CWZipCodeBarChart() {
-    const [{ data, loading, error }, refetch] = useAxios(
+    const [{ data, loading, error }] = useAxios(
         'https://www.landlord-spotter-backend.xyz/api/cw_property_dist/'
     );
     const zipCodeRes = {data, loading, error}
