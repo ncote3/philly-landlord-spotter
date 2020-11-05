@@ -21,9 +21,6 @@ export default function OwnerSearchExplainer() {
                                 <ListGroup.Item variant='secondary' action href="#viewMap">
                                     View Map
                                 </ListGroup.Item>
-                                <ListGroup.Item variant='secondary' action href="#copy">
-                                    Copy Owner
-                                </ListGroup.Item>
                                 <ListGroup.Item variant='secondary' action href="#zipAnalysis">
                                     Zip Analysis
                                 </ListGroup.Item>
@@ -44,14 +41,6 @@ export default function OwnerSearchExplainer() {
                                     <p>
                                         This button will display a modal of a <i>Property Map</i> that is
                                         respective to the owner selected.
-                                    </p>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="#copy">
-                                    <p>
-                                        You can copy the <i>Owner 1</i> key to your clipboard by using the <i>copy </i>
-                                        button. This is to be used as a key in <i>Property Map's</i> input form. This
-                                        workflow is intended to show an owner's property map even though they are not
-                                        one of the most significant owners in the dataset.
                                     </p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="#zipAnalysis">
