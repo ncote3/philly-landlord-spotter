@@ -1,45 +1,49 @@
 .zipCodePageContainer {
-    background-attachment: scroll;
-    background-position: right top;
-    width: 100%;
-    height: auto;
-    padding-top: 6vw;
-    padding-bottom: 3vw;
+  background-attachment: scroll;
+  background-position: right top;
+  width: 100%;
+  height: auto;
+  padding-top: 6vw;
+  padding-bottom: 3vw;
 }
 
 .zipCodePageJumbotron {
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.85) !important;
-    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
-    color: #fff;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  box-shadow: 0 0.35vw 0.35vw 0 rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
 }
 
 @media (max-width: 1024px) {
-    .zipCodePageContainer {
-        padding-top: 8vw;
-    }
+  .zipCodePageContainer {
+    padding-top: 8vw;
+  }
 }
 
 @media (max-width: 896px) {
-    .zipCodeBarChartDropdown {
-        padding-bottom: 2vw;
-    }
+  .zipCodeBarChartDropdown {
+    padding-bottom: 2vw;
+  }
 }
 
 @media (max-width: 591px) {
-    .zipCodePageContainer {
-        padding-top: 11vw;
-    }
+  .zipCodePageContainer {
+    padding-top: 11vw;
+  }
 }
 
 @media (max-width: 450px) {
-    .zipCodePageContainer {
-        padding-top: 15vw;
-    }
+  .zipCodePageContainer {
+    padding-top: 15vw;
+  }
 }
 
 @media (max-width: 411px) {
-    .zipCodePageContainer {
-        padding-top: 17vw;
-    }
+  .zipCodePageContainer {
+    padding-top: 17vw;
+  }
 }
