@@ -18,7 +18,7 @@ const useSupercluster = <
   points,
   bounds,
   zoom,
-  options
+  options,
 }: UseSuperclusterArgument<P, C>) => {
   const superclusterRef = useRef<Supercluster<P, C>>();
   const pointsRef = useRef<Array<Supercluster.PointFeature<P>>>();

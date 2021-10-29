@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import ReactMapGL, { Marker, FlyToInterpolator } from "react-map-gl";
 import MapPin from "../MapPin/MapPin";
 import Spinner from "react-bootstrap/Spinner";
-import useSupercluster from "../../utils/hooks";
+import useSupercluster from "../../utils/hooks/useSupercluster";
 
 export default function MapboxPropertyMap({ landlord, data, loading, error }) {
   const [viewport, setViewport] = useState({
