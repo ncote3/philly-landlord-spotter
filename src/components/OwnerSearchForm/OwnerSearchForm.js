@@ -15,7 +15,7 @@ import Col from "react-bootstrap/Col";
 import MapModal from "../MapModal/MapModal";
 
 const useAxios = makeUseAxios({
-  axios: axios.create({ baseURL: "localhost:8000" }),
+  axios: axios.create({ baseURL: "" }),
 });
 
 export default function OwnerSearchForm() {
@@ -59,9 +59,7 @@ export default function OwnerSearchForm() {
           className="SearchFormContainer"
           style={{ padding: "2vw", textAlign: "center" }}
         >
-          <Spinner animation="border" variant="light" size={"lg"}>
-            <span className="sr-only">Getting Search Data...</span>
-          </Spinner>
+          <Spinner animation="border" variant="light" size={"lg"} />
           <p>Getting Search Data...</p>
         </Container>
       </div>
