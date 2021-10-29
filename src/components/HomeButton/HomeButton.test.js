@@ -6,14 +6,14 @@ import pretty from "pretty";
 
 let container = null;
 beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
+  container = document.createElement("div");
+  document.body.appendChild(container);
 });
 
 afterEach(() => {
-    unmountComponentAtNode(container);
-    container.remove();
-    container = null;
+  unmountComponentAtNode(container);
+  container.remove();
+  container = null;
 });
 
 // Similar to Home.test.js, I think I'm using react-router-bootstrap in a hacky way, making this yell

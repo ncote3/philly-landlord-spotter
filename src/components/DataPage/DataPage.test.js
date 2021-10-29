@@ -6,22 +6,19 @@ import pretty from "pretty";
 
 let container = null;
 beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
+  container = document.createElement("div");
+  document.body.appendChild(container);
 });
 
 afterEach(() => {
-    unmountComponentAtNode(container);
-    container.remove();
-    container = null;
-})
+  unmountComponentAtNode(container);
+  container.remove();
+  container = null;
+});
 
 it("renders correctly", () => {
-    act(() => {
-        render(
-            <DataPage/>,
-            container
-        );
-    });
-    expect(container.innerHTML).toMatchSnapshot(pretty(container.innerHTML));
+  act(() => {
+    render(<DataPage />, container);
+  });
+  expect(container.innerHTML).toMatchSnapshot(pretty(container.innerHTML));
 });

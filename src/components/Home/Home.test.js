@@ -6,15 +6,15 @@ import pretty from "pretty";
 
 let container = null;
 beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
+  container = document.createElement("div");
+  document.body.appendChild(container);
 });
 
 afterEach(() => {
-    unmountComponentAtNode(container);
-    container.remove();
-    container = null;
-})
+  unmountComponentAtNode(container);
+  container.remove();
+  container = null;
+});
 
 // I think I'm using react-router-bootstrap has something to do with this yelling
 // it("renders correctly", () => {
