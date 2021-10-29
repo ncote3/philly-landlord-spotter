@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import ReactMapGL, { Marker, FlyToInterpolator } from "react-map-gl";
-import useSupercluster from "use-supercluster";
 import MapPin from "../MapPin/MapPin";
 import Spinner from "react-bootstrap/Spinner";
+import useSupercluster from "../../utils/hooks";
 
 export default function MapboxPropertyMap({ landlord, data, loading, error }) {
   const [viewport, setViewport] = useState({
@@ -71,6 +71,9 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
     ? mapRef.current.getMap().getBounds().toArray().flat()
     : null;
 
+  console.log("points", points);
+  console.log("bounds", bounds);
+
   // get clusters
   const { clusters, supercluster } = useSupercluster({
     points,
@@ -78,6 +81,8 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
     zoom: viewport.zoom,
     options: { radius: 75, maxZoom: 20 },
   });
+
+  console.log(supercluster);
 
   if (loading) {
     return (
@@ -103,7 +108,7 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
         <ReactMapGL
           {...viewport}
           maxZoom={20}
-          mapboxApiAccessToken="pk.eyJ1IjoibmNvdGUzIiwiYSI6ImNrY2t5dWQ3cDBmaXQydHQ4b3VoODdmemIifQ.QT2VDIQGlElLnAENpCilpA"
+          mapboxApiAccessToken="pk.eyJ1IjoibmNvdGUzIiwiYSI6ImNrdmN3M3AycmIxMngzMnE2c3p6MjVsMzAifQ.kGZjG0AVJHc47gB_-ErZZw"
           onViewportChange={(newViewport) => {
             setViewport({ ...newViewport });
           }}
