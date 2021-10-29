@@ -8,17 +8,21 @@
   .SearchPageSection {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.85) !important;
-    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.35vw 0.35vw 0 rgba(0, 0, 0, 0.6);
     color: #fff;
     margin-bottom: 3vw;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
     .OwnerSearchFormListGroup {
-      color: black ;
+      color: black;
     }
   }
   .ExplainerSection {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.85) !important;
-    box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.35vw 0.35vw 0 rgba(0, 0, 0, 0.6);
     color: #fff;
   }
 }

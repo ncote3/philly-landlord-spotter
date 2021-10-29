@@ -12,7 +12,7 @@ import Container from "react-bootstrap/Container";
 import './IZipCodeBarChart.scss';
 
 const useAxios = makeUseAxios({
-    axios: axios.create({ baseURL: 'https://www.landlord-spotter-backend.xyz/' })
+    axios: axios.create({ baseURL: 'localhost:8000' })
 })
 
 export default function IZipCodeBarChart() {

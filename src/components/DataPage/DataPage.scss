@@ -1,61 +1,64 @@
 .DataPageWrapper {
-    padding-top: 6vw !important;
-    text-align: left;
-    padding-bottom: 3vw;
-    background-attachment: fixed;
-    background-position: right top;
-    width: 100%;
-    height: auto;
-    .DataPageContainer {
-        .DataPageSection {
-            background-color: rgba(0, 0, 0, 0.85);
-            box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
-            padding: 1.5vw 1.5vw .5vw;
-            margin-bottom: 2rem;
-        }
-        .DataPageJumbotron {
-            background-color: rgba(0, 0, 0, 0.85);
-            box-shadow: 0 .35vw .35vw 0 rgba(0, 0, 0, 0.6);
-            color: #fff;
-        }
-        .whiteText {
-            color: #fff;
-        }
+  padding-top: 6vw !important;
+  text-align: left;
+  padding-bottom: 3vw;
+  background-attachment: fixed;
+  background-position: right top;
+  width: 100%;
+  height: auto;
+  .DataPageContainer {
+    .DataPageSection {
+      background-color: rgba(0, 0, 0, 0.85);
+      box-shadow: 0 0.35vw 0.35vw 0 rgba(0, 0, 0, 0.6);
+      padding: 1.5vw 1.5vw 0.5vw;
+      margin-bottom: 2rem;
     }
+    .DataPageJumbotron {
+      background-color: rgba(0, 0, 0, 0.85);
+      box-shadow: 0 0.35vw 0.35vw 0 rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      border-radius: 0.3rem;
+    }
+    .whiteText {
+      color: #fff;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
-    .DataPageWrapper {
-        padding-top: 8vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 8vw !important;
+  }
 }
 
 @media (max-width: 768px) {
-    .DataPageWrapper {
-        padding-top: 10vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 10vw !important;
+  }
 }
 
 @media (max-width: 591px) {
-    .DataPageWrapper {
-        padding-top: 12vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 12vw !important;
+  }
 }
 
 @media (max-width: 450px) {
-    .DataPageWrapper {
-        padding-top: 15vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 15vw !important;
+  }
 }
 
 @media (max-width: 414px) {
-    .DataPageWrapper {
-        padding-top: 16vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 16vw !important;
+  }
 }
 
 @media (max-width: 375px) {
-    .DataPageWrapper {
-        padding-top: 18vw !important;
-    }
+  .DataPageWrapper {
+    padding-top: 18vw !important;
+  }
 }
