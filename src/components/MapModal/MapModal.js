@@ -9,7 +9,7 @@ import MapboxPropertyMap from "../MapboxPropertyMap/MapboxPropertyMap";
 import Modal from 'react-bootstrap/Modal'
 
 const useAxios = makeUseAxios({
-    axios: axios.create({baseURL: 'https://www.landlord-spotter-backend.xyz/'})
+    axios: axios.create({baseURL: 'localhost:8000'})
 });
 
 export default function MapModal(props) {

@@ -12,7 +12,7 @@ import { makeUseAxios } from 'axios-hooks'
 import Badge from 'react-bootstrap/Badge';
 
 const useAxios = makeUseAxios({
-    axios: axios.create({ baseURL: 'https://www.landlord-spotter-backend.xyz/' })
+    axios: axios.create({ baseURL: 'localhost:8000' })
 })
 
 export default function OwnerPicker() {

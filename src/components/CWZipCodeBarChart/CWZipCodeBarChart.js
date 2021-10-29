@@ -8,7 +8,7 @@ import './CWZipCodeBarChart.scss';
 
 export default function CWZipCodeBarChart() {
     const [{ data, loading, error }] = useAxios(
-        'https://www.landlord-spotter-backend.xyz/api/cw_property_dist/'
+        'localhost:8000/api/cw_property_dist/'
     );
     const zipCodeRes = {data, loading, error}
 
