@@ -6,13 +6,15 @@ import useSupercluster from "../../utils/hooks/useSupercluster";
 
 export default function MapboxPropertyMap({ landlord, data, loading, error }) {
   const [viewport, setViewport] = useState({
-    latitude: 39.952778,
-    longitude: -75.163611,
+    latitude: 39.9513445279,
+    longitude: -75.1583360333,
     width: "100%",
     height: "100%",
     zoom: 10,
+    bearing: 0,
+    pitch: 0,
   });
-  const mapRef = useRef();
+  const mapRef = useRef(null);
 
   // prepare data
 
@@ -79,10 +81,8 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
     points,
     bounds,
     zoom: viewport.zoom,
-    options: { radius: 75, maxZoom: 20 },
+    options: { radius: 40, maxZoom: 16 },
   });
-
-  console.log(supercluster);
 
   if (loading) {
     return (

@@ -34,6 +34,8 @@ const useSupercluster = <
     }
 
     if (bounds) {
+      console.log(superclusterRef.current.getClusters(bounds, zoomInt));
+
       setClusters(superclusterRef.current.getClusters(bounds, zoomInt));
     }
 
