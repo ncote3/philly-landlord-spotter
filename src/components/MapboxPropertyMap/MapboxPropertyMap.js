@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
-import ReactMapGL, { Marker, FlyToInterpolator } from "react-map-gl";
-import MapPin from "../MapPin/MapPin";
+import ReactMapGL, { Source, Layer } from "react-map-gl";
 import Spinner from "react-bootstrap/Spinner";
-import useSupercluster from "../../utils/hooks/useSupercluster";
+import { createPoints } from "./helpers";
 
 export default function MapboxPropertyMap({ landlord, data, loading, error }) {
   const [viewport, setViewport] = useState({
@@ -20,84 +19,83 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
 
   const properties = data && !error ? data.properties : [];
   const totalProperties = data && !error ? data.total_properties : [];
-  const points = Object.keys(properties).map((property) => {
-    if (properties[property][0] !== undefined) {
-      return {
-        type: "Feature",
-        properties: {
-          cluster: false,
-          streetAddress: property,
-          category: properties[property][0]["category"],
-          owner2: properties[property][0]["owner_2"],
-          saleDate: properties[property][0]["sale_date"],
-          salePrice: properties[property][0]["sale_price"],
-          yearBuilt: properties[property][0]["year_built"],
-          yearBuiltEstimate: properties[property][0]["year_built_estimate"],
-          recordingDate: properties[property][0]["recording_date"],
-        },
-        geometry: {
-          type: "Point",
-          coordinates: [
-            parseFloat(properties[property][0].location[1]),
-            parseFloat(properties[property][0].location[0]),
-          ],
-        },
-      };
-    } else {
-      return {
-        type: "Feature",
-        properties: {
-          cluster: false,
-          streetAddress: property,
-          category: properties[property]["category"],
-          owner2: properties[property]["owner_2"],
-          saleDate: properties[property]["sale_date"],
-          salePrice: properties[property]["sale_price"],
-          yearBuilt: properties[property]["year_built"],
-          yearBuiltEstimate: properties[property]["year_built_estimate"],
-          recordingDate: properties[property]["recording_date"],
-        },
-        geometry: {
-          type: "Point",
-          coordinates: [
-            parseFloat(properties[property].location[1]),
-            parseFloat(properties[property].location[0]),
-          ],
-        },
-      };
-    }
-  });
+  const points = createPoints(properties);
 
-  // get map bounds
-  const bounds = mapRef.current
-    ? mapRef.current.getMap().getBounds().toArray().flat()
-    : null;
+  const onMapClick = (event) => {
+    const feature = event.features[0];
+    const clusterId = feature.properties.cluster_id;
 
-  console.log("points", points);
-  console.log("bounds", bounds);
+    const mapboxSource = mapRef.current.getMap().getSource("source-properties");
 
-  // get clusters
-  const { clusters, supercluster } = useSupercluster({
-    points,
-    bounds,
-    zoom: viewport.zoom,
-    options: { radius: 40, maxZoom: 16 },
-  });
+    mapboxSource.getClusterExpansionZoom(clusterId, (err, zoom) => {
+      if (err) {
+        return;
+      }
 
-  if (loading) {
+      setViewport({
+        ...viewport,
+        longitude: feature.geometry.coordinates[0],
+        latitude: feature.geometry.coordinates[1],
+        zoom,
+        transitionDuration: 500,
+      });
+    });
+  };
+
+  const renderLoading = () => {
     return (
       <div style={{ marginTop: "10vh" }}>
         <Spinner animation="border" variant="primary" size={"lg"}></Spinner>
         <p>`Loading Map & Points...`</p>
       </div>
     );
-  } else if (error) {
-    return <h3>Error!</h3>;
-  } else {
-    // return map
-    if (landlord === undefined) {
-      return <h1>Something went wrong, try refreshing.</h1>;
-    }
+  };
+
+  const clusterLayerConfig = {
+    id: "clusters",
+    type: "circle",
+    source: "source-properties",
+    filter: ["has", "point_count"],
+    paint: {
+      "circle-color": [
+        "step",
+        ["get", "point_count"],
+        "#51bbd6",
+        100,
+        "#f1f075",
+        750,
+        "#f28cb1",
+      ],
+      "circle-radius": ["step", ["get", "point_count"], 20, 100, 30, 750, 40],
+    },
+  };
+
+  const clusterCountConfig = {
+    id: "cluster-count",
+    type: "symbol",
+    source: "source-properties",
+    filter: ["has", "point_count"],
+    layout: {
+      "text-field": "{point_count_abbreviated}",
+      "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+      "text-size": 12,
+    },
+  };
+
+  const unclusteredPointConfig = {
+    id: "unclustered-point",
+    type: "circle",
+    source: "source-properties",
+    filter: ["!", ["has", "point_count"]],
+    paint: {
+      "circle-color": "#11b4da",
+      "circle-radius": 4,
+      "circle-stroke-width": 1,
+      "circle-stroke-color": "#fff",
+    },
+  };
+
+  const renderMap = () => {
     return (
       <div
         style={{ height: "70vh", width: "100%" }}
@@ -109,13 +107,24 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
           {...viewport}
           maxZoom={20}
           mapboxApiAccessToken="pk.eyJ1IjoibmNvdGUzIiwiYSI6ImNrdmN3M3AycmIxMngzMnE2c3p6MjVsMzAifQ.kGZjG0AVJHc47gB_-ErZZw"
-          onViewportChange={(newViewport) => {
-            setViewport({ ...newViewport });
-          }}
+          onViewportChange={setViewport}
           ref={mapRef}
+          onClick={onMapClick}
           mapStyle="mapbox://styles/ncote3/ckckyx36t05sb1inyzgjvq77q"
         >
-          {clusters.map((cluster) => {
+          <Source
+            id="source-properties"
+            type="geojson"
+            data={points}
+            cluster={true}
+            clusterMaxZoom={14}
+            clusterRadius={50}
+          >
+            <Layer {...clusterLayerConfig} />
+            <Layer {...clusterCountConfig} />
+            <Layer {...unclusteredPointConfig} />
+          </Source>
+          {/* {clusters.map((cluster) => {
             // every cluster point has coordinates
             const [longitude, latitude] = cluster.geometry.coordinates;
             // the point may be either a cluster or a property
@@ -124,61 +133,24 @@ export default function MapboxPropertyMap({ landlord, data, loading, error }) {
 
             // we have a cluster to render
             if (isCluster) {
-              return (
-                <Marker
-                  key={`cluster-${cluster.id}`}
-                  latitude={latitude}
-                  longitude={longitude}
-                >
-                  <div
-                    className="cluster-marker"
-                    onClick={() => {
-                      const expansionZoom = Math.min(
-                        supercluster.getClusterExpansionZoom(cluster.id),
-                        20
-                      );
-
-                      setViewport({
-                        ...viewport,
-                        latitude,
-                        longitude,
-                        zoom: expansionZoom,
-                        transitionInterpolator: new FlyToInterpolator({
-                          speed: 2,
-                        }),
-                        transitionDuration: "auto",
-                      });
-                    }}
-                    style={{
-                      width: `${10 + (pointCount / points.length) * 20}px`,
-                      height: `${10 + (pointCount / points.length) * 20}px`,
-                      color: "#fff",
-                      background: "#1978c8",
-                      borderRadius: "50%",
-                      padding: "10px",
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {pointCount}
-                  </div>
-                </Marker>
-              );
+              return renderCluster(cluster, latitude, longitude, pointCount);
             }
-            // we have a single point (property) to render
-            return (
-              <Marker
-                key={`property-${cluster.properties.streetAddress}`}
-                latitude={latitude}
-                longitude={longitude}
-              >
-                <MapPin props={cluster.properties} />
-              </Marker>
-            );
-          })}
+            return renderSingleProperty(cluster, latitude, longitude);
+          })} */}
         </ReactMapGL>
       </div>
     );
+  };
+
+  if (loading) {
+    return renderLoading();
+  } else if (error) {
+    return <h3>Error!</h3>;
+  } else {
+    // return map
+    if (landlord === undefined) {
+      return <h1>Something went wrong, try refreshing.</h1>;
+    }
+    return renderMap();
   }
 }
